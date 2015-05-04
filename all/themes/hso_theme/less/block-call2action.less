@@ -1,0 +1,100 @@
+/*
+ *  Call2Action-block component (block 4)
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+
+
+// Mixins
+// -------------------------
+.define-call2action (){
+  /* Bildungsberatung */
+  a.call2action {
+    display: inline-block;
+    overflow: hidden;
+    width: 302px;
+    height: 68px;
+    text-indent: -1000px;
+    background: url(../images/button_bildungsberatung.png) no-repeat 0 0;
+  }
+  /* Broschüre bestellen */
+  a.call2action.broschuere_bestellen {
+    background-image: url(../images/button_broschuere_bestellen.png);
+  }
+  /* Stardaten suchen */
+  a.call2action.startdaten_suchen {
+    background-image: url(../images/button_startdaten.png);
+  }
+}
+
+
+// General settings
+// -------------------------
+// no display in main content on desktop
+#block-system-main {
+  .define-call2action();
+
+  a.call2action.broschuere_bestellen,
+  a.call2action.startdaten_suchen {
+    margin-right: 6px;
+  }
+
+  /* extract correct button color from image strip */
+  body.kvcollege_section & a.call2action {
+    background-position: 0 -68px;
+  }
+  body.hscollege_section & a.call2action {
+    background-position: 0 -136px;
+  }
+  body.kscollege_section & a.call2action {
+    background-position: 0 -204px;
+  }
+  body.excollege_section & a.call2action {
+    background-position: 0 -272px;
+  }
+  body.langcollege_section & a.call2action {
+    background-position: 0 -340px;
+  }
+  body.lccollege_section & a.call2action {
+    background-position: 0 -408px;
+  }
+
+  @media @narrow {
+    a.call2action {
+      display: none;
+    }
+  }
+}
+
+#region-sidebar-second {
+  a.call2action {
+    display: none;
+  }
+
+  @media @narrow {
+    .define-call2action();
+
+    /* extract correct button color from image strip */
+    body.kvcollege_section & a.call2action {
+      background-position: 0 -68px;
+    }
+    body.hscollege_section & a.call2action {
+      background-position: 0 -136px;
+    }
+    body.kscollege_section & a.call2action {
+      background-position: 0 -204px;
+    }
+    body.excollege_section & a.call2action {
+      background-position: 0 -272px;
+    }
+    body.langcollege_section & a.call2action {
+      background-position: 0 -340px;
+    }
+    body.lccollege_section & a.call2action {
+      background-position: 0 -408px;
+    }
+
+  }
+}
+
