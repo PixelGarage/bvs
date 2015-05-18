@@ -260,9 +260,9 @@ function hso_mods_form_alter(&$form, &$form_state, $form_id) {
   } elseif ($form_id == 'views_exposed_form') {
   	if (in_array('views_exposed_form__blog__panel_pane_1', $form['#theme'])) {
 			$form['#action'] = url('blog');
-			$form['keys']['#attributes']['placeholder'] = 'HSO dursuchen';
+			$form['keys']['#attributes']['placeholder'] = 'Suchen...';
 		}
   } elseif ($form_id == 'search_block_form') {
-		$form['search_block_form']['#attributes']['placeholder'] = 'HSO dursuchen';
+		$form['search_block_form']['#attributes']['placeholder'] = 'Suchen...';
   }
 }
