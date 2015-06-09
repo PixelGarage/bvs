@@ -34,25 +34,25 @@ body.responsive-layout-narrow .container-12 .grid-8#region-preface-first {
 }
 #page {
   min-width: 640px;
-  border-top: 4px solid #631615;
+  border-top: 4px solid #003b79;
 }
 body.kvcollege_section #page {
-  border-top-color: #e33231;
+  border-top-color: #fbe700;
 }
 body.hscollege_section #page {
-  border-top-color: #e33231;
+  border-top-color: #e77431;
 }
 body.kscollege_section #page {
-  border-top-color: #008fd0;
+  border-top-color: #7db956;
 }
 body.excollege_section #page {
-  border-top-color: #008fd0;
+  border-top-color: #b1a896;
 }
 body.infcollege_section #page {
   border-top-color: #e33231;
 }
 body.langcollege_section #page {
-  border-top-color: #e33231;
+  border-top-color: #e42618;
 }
 body.juncollege_section #page {
   border-top-color: #e33231;
@@ -366,7 +366,7 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
 #block-menu-block-4 ul li a.active,
 #block-menu-block-3 ul li a:hover,
 #block-menu-block-4 ul li a:hover {
-  color: #631615;
+  color: #003b79;
 }
 #block-menu-block-3 ul li.first a,
 #block-menu-block-4 ul li.first a {
@@ -381,7 +381,7 @@ body.responsive-layout-mobile #region-branding #menu_appended {
   top: 125px;
   padding-top: 40px;
   width: 40px;
-  background: #b0041a url(../images/menu_more.jpg) no-repeat 9px 10px;
+  background: #003b79 url(../images/menu_more.jpg) no-repeat 9px 10px;
 }
 body.responsive-layout-mobile #region-branding #menu_appended .wrapper {
   display: none;
@@ -395,7 +395,7 @@ body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper {
   left: -300px;
   padding: 20px;
   width: 300px;
-  background: #b0041a;
+  background: #003b79;
 }
 body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #block-menu-block-4 {
   float: none;
@@ -463,25 +463,25 @@ body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #bl
  * --------------------------------------------------*/
 #zone-menu-wrapper {
   position: relative;
-  background: #631615;
+  background: #003b79;
 }
 body.kvcollege_section #zone-menu-wrapper {
-  background: #e33231;
+  background: #fbe700;
 }
 body.hscollege_section #zone-menu-wrapper {
-  background: #e33231;
+  background: #e77431;
 }
 body.kscollege_section #zone-menu-wrapper {
-  background: #008fd0;
+  background: #7db956;
 }
 body.excollege_section #zone-menu-wrapper {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.infcollege_section #zone-menu-wrapper {
   background: #e33231;
 }
 body.langcollege_section #zone-menu-wrapper {
-  background: #e33231;
+  background: #e42618;
 }
 body.juncollege_section #zone-menu-wrapper {
   background: #e33231;
@@ -600,133 +600,133 @@ body.coacollege_section #zone-menu-wrapper {
   /* KV Kollege top-menu background (normal, hovered) */
 }
 #block-menu-block-1 ul li.menu-mlid-986 a {
-  background-color: #e33231;
+  background-color: #fbe700;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a span.arrow {
-  border-top-color: #e33231;
+  border-top-color: #fbe700;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-986:hover a {
-  background-color: #e12524;
+  background-color: #ecd900;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986:hover a span.arrow {
-  border-top-color: #e12524;
+  border-top-color: #ecd900;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
   /* Submenu position under top menu */
-  background: #e33231;
+  background: #fbe700;
   left: 0px;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content {
   width: 234px;
-  border-right: 1px solid #e12524;
+  border-right: 1px solid #ecd900;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover {
-  color: #ef8b8b;
+  color: #fff262;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-987 a {
-  background-color: #e33231;
+  background-color: #e77431;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a span.arrow {
-  border-top-color: #e33231;
+  border-top-color: #e77431;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-987:hover a {
-  background-color: #e12524;
+  background-color: #e56b23;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987:hover a span.arrow {
-  border-top-color: #e12524;
+  border-top-color: #e56b23;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
   /* Submenu position under top menu */
-  background: #e33231;
-  left: 0px;
+  background: #e77431;
+  left: -235px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content {
   width: 234px;
-  border-right: 1px solid #e12524;
+  border-right: 1px solid #e56b23;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover {
-  color: #ef8b8b;
+  color: #f2b28c;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-988 a {
-  background-color: #008fd0;
+  background-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a span.arrow {
-  border-top-color: #008fd0;
+  border-top-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-988:hover a {
-  background-color: #0084c1;
+  background-color: #75b54b;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988:hover a span.arrow {
-  border-top-color: #0084c1;
+  border-top-color: #75b54b;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
   /* Submenu position under top menu */
-  background: #008fd0;
+  background: #7db956;
   left: -290px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content {
   width: 234px;
-  border-right: 1px solid #0084c1;
+  border-right: 1px solid #75b54b;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content a:hover {
-  color: #006c9d;
+  color: #649c40;
 }
 #block-menu-block-1 ul li.menu-mlid-989 {
   /* Executive top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-989 a {
-  background-color: #008fd0;
+  background-color: #b1a896;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a span.arrow {
-  border-top-color: #008fd0;
+  border-top-color: #b1a896;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-989.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-989:hover a {
-  background-color: #0084c1;
+  background-color: #aaa18d;
 }
 #block-menu-block-1 ul li.menu-mlid-989 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-989.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-989:hover a span.arrow {
-  border-top-color: #0084c1;
+  border-top-color: #aaa18d;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
   /* Submenu position under top menu */
-  background: #008fd0;
+  background: #b1a896;
   left: -325px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content {
   width: 234px;
-  border-right: 1px solid #0084c1;
+  border-right: 1px solid #aaa18d;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content a:hover {
-  color: #006c9d;
+  color: #9b9079;
 }
 #block-menu-block-1 ul li.menu-mlid-3048 {
   /* Informatik top-menu background */
@@ -765,34 +765,34 @@ body.coacollege_section #zone-menu-wrapper {
   /* Sprachen top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a {
-  background-color: #e33231;
+  background-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a span.arrow {
-  border-top-color: #e33231;
+  border-top-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-3216.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-3216:hover a {
-  background-color: #e12524;
+  background-color: #d62417;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3216.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3216:hover a span.arrow {
-  border-top-color: #e12524;
+  border-top-color: #d62417;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
   /* Submenu position under top menu */
-  background: #e33231;
+  background: #e42618;
   left: 0px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content {
   width: 234px;
-  border-right: 1px solid #e12524;
+  border-right: 1px solid #d62417;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover {
-  color: #ef8b8b;
+  color: #f07b72;
 }
 #block-menu-block-1 ul li.menu-mlid-3218 {
   /* Junior top-menu background */
@@ -1049,7 +1049,7 @@ body.coacollege_section #zone-menu-wrapper {
   line-height: 32px;
   text-align: center;
   text-decoration: none;
-  background: #631615;
+  background: #003b79;
 }
 .block-banners-block-1 .banner_pagination,
 .block-banners-block .banner_pagination {
@@ -1082,7 +1082,7 @@ body.coacollege_section #zone-menu-wrapper {
 }
 .block-banners-block-1 .banner_pagination li.page.current a,
 .block-banners-block .banner_pagination li.page.current a {
-  background: #631615;
+  background: #003b79;
 }
 .block-banners-block-1 .banner_pagination li.pager a.banner_prev,
 .block-banners-block .banner_pagination li.pager a.banner_prev,
@@ -1104,35 +1104,35 @@ body.coacollege_section #zone-menu-wrapper {
 }
 body.kvcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kvcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #e33231;
+  background: #fbe700;
 }
 body.kvcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.kvcollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #e33231;
+  background: #fbe700;
 }
 body.hscollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.hscollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #e33231;
+  background: #e77431;
 }
 body.hscollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.hscollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #e33231;
+  background: #e77431;
 }
 body.kscollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kscollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #008fd0;
+  background: #7db956;
 }
 body.kscollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.kscollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #008fd0;
+  background: #7db956;
 }
 body.excollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.excollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.excollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.excollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.infcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.infcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
@@ -1144,11 +1144,11 @@ body.infcollege_section .block-banners-block .banner_pagination li.page.current 
 }
 body.langcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.langcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #e33231;
+  background: #e42618;
 }
 body.langcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.langcollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #e33231;
+  background: #e42618;
 }
 body.juncollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.juncollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
@@ -1206,56 +1206,56 @@ body.node-type-course #region-sidebar-second {
   border-bottom: none;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock caption {
-  color: #e33231;
+  color: #fbe700;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #e33231;
-  border-top-color: #e33231;
+  border-bottom-color: #fbe700;
+  border-top-color: #fbe700;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #e33231;
+  border-bottom-color: #fbe700;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #e33231;
+  border-bottom-color: #fbe700;
 }
 body.hscollege_section .node.node-course table.aufeinenblock caption {
-  color: #e33231;
+  color: #e77431;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #e33231;
-  border-top-color: #e33231;
+  border-bottom-color: #e77431;
+  border-top-color: #e77431;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e77431;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e77431;
 }
 body.kscollege_section .node.node-course table.aufeinenblock caption {
-  color: #008fd0;
+  color: #7db956;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #008fd0;
-  border-top-color: #008fd0;
+  border-bottom-color: #7db956;
+  border-top-color: #7db956;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #7db956;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #7db956;
 }
 body.excollege_section .node.node-course table.aufeinenblock caption {
-  color: #008fd0;
+  color: #b1a896;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #008fd0;
-  border-top-color: #008fd0;
+  border-bottom-color: #b1a896;
+  border-top-color: #b1a896;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #b1a896;
 }
 body.excollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #b1a896;
 }
 body.infcollege_section .node.node-course table.aufeinenblock caption {
   color: #e33231;
@@ -1271,17 +1271,17 @@ body.infcollege_section .node.node-course table.aufeinenblock tbody tr td {
   border-bottom-color: #e33231;
 }
 body.langcollege_section .node.node-course table.aufeinenblock caption {
-  color: #e33231;
+  color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #e33231;
-  border-top-color: #e33231;
+  border-bottom-color: #e42618;
+  border-top-color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e42618;
 }
 body.juncollege_section .node.node-course table.aufeinenblock caption {
   color: #e33231;
@@ -1370,10 +1370,10 @@ body.coacollege_section .node.node-course table.aufeinenblock tbody tr td {
 }
 .node.node-location .content table caption {
   padding-bottom: 5px;
-  color: #631615;
+  color: #003b79;
   font-family: 'Soho Gothic W01 Medium', sans-serif;
   font-size: 14px;
-  border-bottom: 2px solid #631615;
+  border-bottom: 2px solid #003b79;
 }
 .node.node-location .content table td {
   border-bottom: 1px solid #aeaeae;
@@ -1411,7 +1411,7 @@ body.coacollege_section .node.node-course table.aufeinenblock tbody tr td {
   margin-top: 10px;
 }
 .node-webform form.webform-client-form .form-item a {
-  color: #631615;
+  color: #003b79;
 }
 .node-webform form.webform-client-form textarea {
   width: 560px;
@@ -1464,32 +1464,32 @@ body.coacollege_section .node.node-course table.aufeinenblock tbody tr td {
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
-  background: #631615;
+  background: #003b79;
   border: none;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-item a {
-  color: #e33231;
+  color: #fbe700;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #e33231;
+  background-color: #fbe700;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #e33231;
+  color: #e77431;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #e33231;
+  background-color: #e77431;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #008fd0;
+  color: #7db956;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #008fd0;
+  background-color: #7db956;
 }
 body.excollege_section .node-webform form.webform-client-form .form-item a {
-  color: #008fd0;
+  color: #b1a896;
 }
 body.excollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #008fd0;
+  background-color: #b1a896;
 }
 /*
  *  Segment-block panes (course intro page)
@@ -1500,7 +1500,7 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
   padding: 15px 20px;
-  border-top: 4px solid #631615;
+  border-top: 4px solid #003b79;
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
   font-size: 20px;
@@ -1512,7 +1512,7 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   color: #000;
   line-height: 30px;
   text-decoration: none;
-  border-bottom: 2px solid #631615;
+  border-bottom: 2px solid #003b79;
 }
 .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td.first a {
   margin-right: 20px;
@@ -1562,65 +1562,65 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   background-position: 0 -25px;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #e33231;
-  background: #f5b8b8;
+  border-top-color: #fbe700;
+  background: #fff795;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #e33231;
+  color: #fbe700;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #e33231;
+  border-bottom-color: #fbe700;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #f8cece;
+  background-color: #fff9ae;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_kv.jpg);
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #e33231;
-  background: #f5b8b8;
+  border-top-color: #e77431;
+  background: #f7d0ba;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #e33231;
+  color: #e77431;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e77431;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #f8cece;
+  background-color: #fae0d1;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_hs.jpg);
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #008fd0;
-  background: #9de0ff;
+  border-top-color: #7db956;
+  background: #ecf5e6;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #008fd0;
+  color: #7db956;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #7db956;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #b7e8ff;
+  background-color: #fafcf8;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest.jpg);
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #008fd0;
-  background: #9de0ff;
+  border-top-color: #b1a896;
+  background: #ffffff;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #008fd0;
+  color: #b1a896;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #008fd0;
+  border-bottom-color: #b1a896;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #b7e8ff;
+  background-color: #ffffff;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
@@ -1642,17 +1642,17 @@ body.infcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .no
   background-image: url(../images/wo_befindest_ex.jpg);
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #e33231;
-  background: #f5b8b8;
+  border-top-color: #e42618;
+  background: #f5a6a0;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #e33231;
+  color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #e33231;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #f8cece;
+  background-color: #f7bbb7;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
@@ -1865,96 +1865,96 @@ body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .n
   border-left: 2px solid #b2b2b2;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #e33231;
-  border-bottom-color: #e33231;
+  color: #fbe700;
+  border-bottom-color: #fbe700;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #fbe700;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #fbe700;
   background-color: #fff;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #e33231;
+  background: #fbe700;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/kv_teaser_tabs_pager.png);
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #e33231;
+  color: #fbe700;
 }
 body.hscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #e33231;
-  border-bottom-color: #e33231;
+  color: #e77431;
+  border-bottom-color: #e77431;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #e77431;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #e77431;
   background-color: #fff;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #e33231;
+  background: #e77431;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/hs_teaser_tabs_pager.png);
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #e33231;
+  color: #e77431;
 }
 body.kscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #008fd0;
-  border-bottom-color: #008fd0;
+  color: #7db956;
+  border-bottom-color: #7db956;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #008fd0;
+  background: none #7db956;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #008fd0;
+  color: #7db956;
   background-color: #fff;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #008fd0;
+  background: #7db956;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ks_teaser_tabs_pager.png);
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #008fd0;
+  color: #7db956;
 }
 body.excollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #008fd0;
-  border-bottom-color: #008fd0;
+  color: #b1a896;
+  border-bottom-color: #b1a896;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/ex_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #008fd0;
+  background: none #b1a896;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #008fd0;
+  color: #b1a896;
   background-color: #fff;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
 body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #008fd0;
+  color: #b1a896;
 }
 body.infocollege_section .panel-pane.pane-course-intros .pane-title {
   color: #e33231;
@@ -1980,27 +1980,27 @@ body.infocollege_section .panel-pane.pane-course-intros .view-course-intros .vie
   color: #e33231;
 }
 body.langcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #e33231;
-  border-bottom-color: #e33231;
+  color: #e42618;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #e42618;
   background-color: #fff;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #e33231;
+  background: #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #e33231;
+  color: #e42618;
 }
 body.juncollege_section .panel-pane.pane-course-intros .pane-title {
   color: #e33231;
@@ -2185,28 +2185,28 @@ body.langcollege_section .pane-team-panel-pane-1 .pane-content a.browse {
   text-decoration: none;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul {
-  background: #e33231;
+  background: #fbe700;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #e12524;
+  background: #ecd900;
 }
 body.hscollege_section #block-views-courses-block .view-content ul {
-  background: #e33231;
+  background: #e77431;
 }
 body.hscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #e12524;
+  background: #e56b23;
 }
 body.kscollege_section #block-views-courses-block .view-content ul {
-  background: #008fd0;
+  background: #7db956;
 }
 body.kscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #0084c1;
+  background: #75b54b;
 }
 body.excollege_section #block-views-courses-block .view-content ul {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.excollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #0084c1;
+  background: #aaa18d;
 }
 body.infcollege_section #block-views-courses-block .view-content ul {
   background: #e33231;
@@ -2215,10 +2215,10 @@ body.infcollege_section #block-views-courses-block .view-content ul li.views-row
   background: #e12524;
 }
 body.langcollege_section #block-views-courses-block .view-content ul {
-  background: #e33231;
+  background: #e42618;
 }
 body.langcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
-  background: #e12524;
+  background: #d62417;
 }
 body.juncollege_section #block-views-courses-block .view-content ul {
   background: #e33231;
@@ -2437,10 +2437,10 @@ body.kvcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #fbe700;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #fbe700;
   background-color: #fff;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2448,13 +2448,13 @@ body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #fbe700;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #e33231;
+  border-bottom: 1px solid #fbe700;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #fbe700;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfeac5;
@@ -2463,16 +2463,16 @@ body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ecf2dc;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #e33231;
+  background: #fbe700;
 }
 body.hscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #e77431;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #e77431;
   background-color: #fff;
 }
 body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2480,13 +2480,13 @@ body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #e77431;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #e33231;
+  border-bottom: 1px solid #e77431;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #e77431;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #ffdbb7;
@@ -2495,16 +2495,16 @@ body.hscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ffe8d3;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #e33231;
+  background: #e77431;
 }
 body.kscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #008fd0;
+  background: none #7db956;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #008fd0;
+  color: #7db956;
   background-color: #fff;
 }
 body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2512,13 +2512,13 @@ body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #008fd0;
+  border-bottom: 4px solid #7db956;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #008fd0;
+  border-bottom: 1px solid #7db956;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #008fd0;
+  border-bottom: 4px solid #7db956;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfd4e7;
@@ -2527,16 +2527,16 @@ body.kscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ebe4f1;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #008fd0;
+  background: #7db956;
 }
 body.excollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ex_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.excollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #008fd0;
+  background: none #b1a896;
 }
 body.excollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #008fd0;
+  color: #b1a896;
   background-color: #fff;
 }
 body.excollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2544,13 +2544,13 @@ body.excollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.excollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #008fd0;
+  border-bottom: 4px solid #b1a896;
 }
 body.excollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #008fd0;
+  border-bottom: 1px solid #b1a896;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #008fd0;
+  border-bottom: 4px solid #b1a896;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfdfdf;
@@ -2559,7 +2559,7 @@ body.excollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #efefef;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.infcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lc_bg_tabs.png) no-repeat 0 1px;
@@ -2597,10 +2597,10 @@ body.langcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #e33231;
+  background: none #e42618;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #e33231;
+  color: #e42618;
   background-color: #fff;
 }
 body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2608,13 +2608,13 @@ body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anm
   background-size: contain;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #e33231;
+  border-bottom: 1px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #e33231;
+  border-bottom: 4px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #ffffff;
@@ -2623,7 +2623,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   background: #ffffff;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #e33231;
+  background: #e42618;
 }
 body.juncollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
@@ -2714,7 +2714,7 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   border: 1px solid #d3d2ce;
-  background: #631615;
+  background: #003b79;
 }
 #block-menu-block-5 ul.menu li a {
   display: block;
@@ -2732,7 +2732,7 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
 }
 #block-menu-block-5 ul.menu li:hover a,
 #block-menu-block-5 ul.menu li.active a {
-  color: #631615;
+  color: #003b79;
 }
 #block-menu-block-5 ul.menu li.menu-mlid-1193 a,
 #block-menu-block-5 ul.menu li.menu-mlid-1195 a,
@@ -2795,13 +2795,13 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   text-decoration: none;
   vertical-align: middle;
   border: none;
-  background: #631615;
+  background: #003b79;
 }
 .view-course-times-search .view-content table {
   width: 100%;
 }
 .view-course-times-search .view-content table thead th {
-  border-bottom: 4px solid #631615;
+  border-bottom: 4px solid #003b79;
   font-family: 'Soho Gothic W01 Medium', sans-serif;
   font-size: 14px;
   padding: 5px 10px 5px 5px;
@@ -2810,7 +2810,7 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   color: #000;
 }
 .view-course-times-search .view-content table thead th a:hover {
-  color: #631615;
+  color: #003b79;
 }
 .view-course-times-search .view-content table thead th.views-field-segment {
   width: 20%;
@@ -2842,7 +2842,7 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
 }
 .view-course-times-search .view-content table tbody td a:hover {
-  color: #631615;
+  color: #003b79;
 }
 .view-course-times-search .view-content table tbody td.views-field-nothing {
   vertical-align: middle;
@@ -2853,7 +2853,7 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   line-height: 25px;
   color: #fff;
   text-decoration: none;
-  background: #631615;
+  background: #003b79;
 }
 .view-course-times-search .view-content table tbody td.views-field-field-location {
   text-align: center;
@@ -2874,11 +2874,11 @@ body.coacollege_section .view-course-tabs #startdaten .view-course-times table t
   text-decoration: none;
 }
 .view-course-times-search .item-list .pager li a:hover {
-  color: #631615;
+  color: #003b79;
   font-weight: normal;
 }
 .view-course-times-search .item-list .pager li.pager-current {
-  color: #631615;
+  color: #003b79;
   font-weight: normal;
 }
 .view-course-times-search .item-list .pager li.pager-last,
@@ -2961,7 +2961,7 @@ article.comment .comment-links {
   font-size: 13px;
 }
 article.comment .comment-links a {
-  color: #631615;
+  color: #003b79;
 }
 article.comment footer {
   padding: 10px;
@@ -3019,7 +3019,7 @@ article.comment footer .author {
   padding-right: 25px;
 }
 .view.view-team .view-header a:hover {
-  color: #631615;
+  color: #003b79;
   font-weight: normal;
 }
 .view.view-team .user_profile {
@@ -3039,7 +3039,7 @@ article.comment footer .author {
   color: #4c4c4c;
 }
 .view.view-team .user_profile .field-name-field-full-name a:hover {
-  color: #631615;
+  color: #003b79;
 }
 .view.view-team .user_profile .field-name-field-position-function {
   margin-bottom: 10px;
@@ -3113,11 +3113,11 @@ article.comment footer .author {
   text-decoration: none;
 }
 .view.view-team .pager li a:hover {
-  color: #631615;
+  color: #003b79;
   font-weight: normal;
 }
 .view.view-team .pager li.pager-current {
-  color: #631615;
+  color: #003b79;
   font-weight: normal;
 }
 .view.view-team .pager li.pager-last,
@@ -3318,7 +3318,7 @@ body.responsive-layout-mobile.front #block-block-2 {
   color: #fff;
   line-height: 20px;
   border-bottom: 1px solid #fff;
-  background: #631615 url(../images/blog_icon.png) no-repeat 12px 18px;
+  background: #003b79 url(../images/blog_icon.png) no-repeat 12px 18px;
 }
 #block-views-ber-den-autor-block .view {
   padding: 15px;
@@ -3365,22 +3365,22 @@ body.responsive-layout-mobile.front #block-block-2 {
   font-size: 14px;
 }
 body.kvcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #e33231;
+  background-color: #fbe700;
 }
 body.hscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #e33231;
+  background-color: #e77431;
 }
 body.kscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #008fd0;
+  background-color: #7db956;
 }
 body.excollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #008fd0;
+  background-color: #b1a896;
 }
 body.infcollege_section #block-views-ber-den-autor-block h2.block-title {
   background-color: #e33231;
 }
 body.langcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #e33231;
+  background-color: #e42618;
 }
 body.juncollege_section #block-views-ber-den-autor-block h2.block-title {
   background-color: #e33231;
@@ -3494,12 +3494,12 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts,
 body.kvcollege_section .block-views-contacts-block-course-contacts {
-  background: #e33231;
+  background: #fbe700;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
-  background: #e12524;
+  background: #ecd900;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3507,12 +3507,12 @@ body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts,
 body.hscollege_section .block-views-contacts-block-course-contacts {
-  background: #e33231;
+  background: #e77431;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
-  background: #e12524;
+  background: #e56b23;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3520,12 +3520,12 @@ body.hscollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts,
 body.kscollege_section .block-views-contacts-block-course-contacts {
-  background: #008fd0;
+  background: #7db956;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #1e61a3;
-  background: #0084c1;
+  background: #75b54b;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3533,12 +3533,12 @@ body.kscollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.excollege_section #block-views-contacts-block-segment-contacts,
 body.excollege_section .block-views-contacts-block-course-contacts {
-  background: #008fd0;
+  background: #b1a896;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #1e61a3;
-  background: #0084c1;
+  background: #aaa18d;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3559,12 +3559,12 @@ body.infcollege_section .block-views-contacts-block-course-contacts .content ul.
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts,
 body.langcollege_section .block-views-contacts-block-course-contacts {
-  background: #e33231;
+  background: #e42618;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
-  background: #e12524;
+  background: #d62417;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
 body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
@@ -3877,7 +3877,7 @@ body.coacollege_section .block-views-contacts-block-course-contacts .content ul.
   color: #fff;
   text-align: center;
   border: none;
-  background: #631615;
+  background: #003b79;
 }
 /*
  *  Footer menu component
@@ -3920,5 +3920,5 @@ body.coacollege_section .block-views-contacts-block-course-contacts .content ul.
 }
 #region-footer-second #block-menu-block-2 ul li a.active,
 #region-footer-second #block-menu-block-2 ul li a:hover {
-  color: #631615;
+  color: #003b79;
 }

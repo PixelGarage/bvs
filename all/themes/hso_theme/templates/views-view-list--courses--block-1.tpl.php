@@ -8,9 +8,9 @@
   //(Lehrgänge = 61, Management und Führung=62, Marketing und Verkauf=63, Organisation und Personal=64,
   // Finanzen=65, Höhere Fachschule = 66, Fachhochschule=67)
   $columnClass = ' class = "menu-view-column-';
-  if ($title === 'Lehrgänge' || $title === 'Management und Führung' || $title === 'Marketing und Verkauf') {
+  if ($title === 'Lehrgänge' || $title === 'Höhere Fachschule' || $title === 'Nachdiplomstudien NDS' || $title === 'Kaufmann/Kauffrau Fähigkeitszeugnis' ) {
     $columnClass .= '1">';
-  } elseif ($title === 'Organisation und Personal' || $title === 'Finanzen' || $title === 'Prüfungstrainings') {
+  } elseif ($title === 'Eidg. höhere Fachprüfung' || $title === 'Eidg. Fachausweise' || $title === 'Handelsdiplom VSH Vollzeit' || $title === 'Bürofachdiplom VSH Vollzeit' ) {
     $columnClass .= '2">';
   } else {
     $columnClass .= '3">';
@@ -19,8 +19,8 @@
   $list_type_prefix .= $columnClass;
   print $list_type_prefix;
 ?>
-  <?php if ($title === 'Management und Führung'): ?>
-    <li class="nolink-main clearfix"><?php print "Berufsakademie"; ?></li>
+  <?php if ($title === 'Höhere Fachschule'): ?>
+    <li class="nolink-main clearfix"><?php print "Lehrgänge"; ?></li>
     <li class="nolink clearfix"><?php print $title; ?></li>
   <?php elseif ($title === 'Höhere Fachschule' || $title === 'Fachhochschule'): ?>
     <li class="nolink-main clearfix"><?php print $title; ?></li>
