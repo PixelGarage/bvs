@@ -41,7 +41,7 @@
     color: #fff;
     line-height: 20px;
     border-bottom: 1px solid #fff;
-    background: #e40421 url(../images/blog_icon.png) no-repeat 12px 18px;
+    background: @branding-bg url(../images/blog_icon.png) no-repeat 12px 18px;
   }
 
   .pane-title {
@@ -58,7 +58,7 @@
     text-align: center;
     text-decoration: none;
     border-left: 1px solid #fff;
-    background: #ef6d7e;
+    background: lighten(@branding-bg, 15%);
 
     &.first {
       border-left: none;
@@ -129,17 +129,21 @@ body.responsive-layout-mobile.front {
 
 #block-panels-mini-segment-blog {
   body.kvcollege_section & {
-    .specific-mini-segment-blog(@hso-kv-college; #e4edc4; url(../images/kv_blog.png); #c4d890);
+    .specific-mini-segment-blog(@hso-kv-college; lighten(@hso-kv-college, 20%); url(../images/kv_blog.png); lighten(@hso-kv-college, 15%));
   }
   body.hscollege_section & {
-    .specific-mini-segment-blog(@hso-handelsschule; #fae4d7; url(../images/hs_blog.png); #f3b793);
+    .specific-mini-segment-blog(@hso-handelsschule; lighten(@hso-handelsschule, 20%); url(../images/hs_blog.png); lighten(@hso-handelsschule, 15%));
   }
   body.kscollege_section & {
-    .specific-mini-segment-blog(@hso-kaderschule; #e6e4ef; url(../images/ks_blog.png); #b0aec6);
+    .specific-mini-segment-blog(@hso-kaderschule; lighten(@hso-kaderschule, 20%); url(../images/kv_blog.png); lighten(@hso-kaderschule, 15%));
   }
   body.excollege_section & {
-    .specific-mini-segment-blog(@hso-executive; #e7e5de; url(../images/ex_blog.png); #ccc7bd);
+    .specific-mini-segment-blog(@hso-executive; lighten(@hso-executive, 20%); url(../images/ex_blog.png); lighten(@hso-executive, 15%));
+  }
+  body.langcollege_section & {
+    .specific-mini-segment-blog(@hso-sprachen; lighten(@hso-sprachen, 20%); none; lighten(@hso-sprachen, 15%));
   }
 }
+
 
 
