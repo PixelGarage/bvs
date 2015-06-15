@@ -184,6 +184,11 @@
               white-space: nowrap;
               line-height: 25px;
             }
+
+            .views-field-field-brand {
+              vertical-align: middle;
+              text-align: center;
+            }
           }
         }
       }
@@ -203,17 +208,8 @@
   body.excollege_section & {
     .specific-course-tabs(@hso-executive; url(../images/ex_bg_tabs.jpg); url(../images/ex_anmelden_2.png); #dfdfdf; #efefef);
   }
-  body.infcollege_section & {
-    .specific-course-tabs(@hso-informatik; url(../images/lc_bg_tabs.png); url(../images/lc_anmelden_2.png); lighten(@hso-informatik, 55%); lighten(@hso-informatik, 65%));
-  }
   body.langcollege_section & {
     .specific-course-tabs(@hso-sprachen; url(../images/lang_bg_tabs.png); url(../images/lang_anmelden_2.png); lighten(@hso-sprachen, 55%); lighten(@hso-sprachen, 65%));
-  }
-  body.juncollege_section & {
-    .specific-course-tabs(@hso-junior; url(../images/lang_bg_tabs.png); url(../images/lang_anmelden_2.png); lighten(@hso-junior, 55%); lighten(@hso-junior, 65%));
-  }
-  body.coacollege_section & {
-    .specific-course-tabs(@hso-coaching; url(../images/lang_bg_tabs.png); url(../images/lang_anmelden_2.png); lighten(@hso-coaching, 55%); lighten(@hso-coaching, 65%));
   }
 
 }

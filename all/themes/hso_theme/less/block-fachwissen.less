@@ -27,7 +27,7 @@
     color: #fff;
     line-height: 20px;
     border-bottom: 1px solid #fff;
-    background: @branding-bg url(../images/blog_icon.png) no-repeat 12px 18px;
+    background: @branding-bg  url(../images/blog_icon.png) no-repeat 12px 18px;
   }
 
   .view {
@@ -65,16 +65,21 @@
 
   // specific segment settings
   body.kvcollege_section & {
-    .specific-fachwissen-block(#e4edc4; url(../images/kv_fachwissen.png););
+    .specific-fachwissen-block(@hso-kv-college; url(../images/kv_fachwissen.png););
   }
   body.hscollege_section & {
-    .specific-fachwissen-block(#fae4d7; url(../images/hs_fachwissen.png););
+    .specific-fachwissen-block(@hso-handelsschule; url(../images/hs_fachwissen.png););
   }
   body.kscollege_section & {
-    .specific-fachwissen-block(#e6e4ef; url(../images/ks_fachwissen.png););
+    .specific-fachwissen-block(@hso-kaderschule; url(../images/ks_fachwissen.png););
   }
   body.excollege_section & {
-    .specific-fachwissen-block(#e7e5de; url(../images/ex_fachwissen.png););
+    .specific-fachwissen-block(@hso-executive; url(../images/ex_fachwissen.png););
+  }
+  body.langcollege_section & {
+    .specific-fachwissen-block(@hso-sprachen; none;);
   }
 }
+
+
 
