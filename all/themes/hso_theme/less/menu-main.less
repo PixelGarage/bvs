@@ -10,7 +10,7 @@
 @medium-column-width: 175px; //115px;
 @medium-column-width-wb: @medium-column-width+1;
 
-@column-width: 234px; // 155px;
+@column-width: 186px; // 5 auf einer Zeile NEU 186px Alte Einstellung = 234px
 @column-width-with-border: @column-width+1;
 
 
@@ -62,23 +62,23 @@
 // menu background
 #zone-menu-wrapper {
   position: relative;
-  background: @branding-bg;
+  #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
 
   // specific menu background
   body.kvcollege_section & {
-    background: @hso-kv-college;
+    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
   }
   body.hscollege_section & {
-    background: @hso-handelsschule;
+    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
   }
   body.kscollege_section & {
-    background: @hso-kaderschule;
+    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
   }
   body.excollege_section & {
-    background: @hso-executive;
+    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
   }
   body.langcollege_section & {
-    background: @hso-sprachen;
+    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
   }
 }
 
@@ -210,7 +210,7 @@
       }
       &.menu-mlid-987 {
         /* Handelsschule top-menu background */
-        .main-menu-item(@hso-handelsschule, @hso-handelsschule-hover, @hso-handelsschule-hover-dark, @left-shift: -235px);
+        .main-menu-item(@hso-handelsschule, @hso-handelsschule-hover, @hso-handelsschule-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-988 {
         /* Kaderschule top-menu background */
@@ -223,7 +223,7 @@
 
       &.menu-mlid-3216 {
         /* Sprachen top-menu background */
-        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: -372px);
       }
       &.menu-mlid-3124 {
         /* placeholder to center 2nd menu row */
@@ -263,7 +263,7 @@
     display: none;
     position: absolute;
     top: 40px;
-    left: 105px;
+    left: 75px;
     z-index: 5;
     border-top: 13px solid;
     border-right: 13px solid transparent;
@@ -322,7 +322,7 @@
   /* Arrow of top menus */
   #block-menu-block-1 ul li a {
     font-size: 16px;
-    background-position: 203px 19px;
+    background-position: 160px 19px;
   }
 
   /* define normal sized menus width and position */

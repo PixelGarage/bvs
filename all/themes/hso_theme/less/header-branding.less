@@ -13,6 +13,10 @@
 
 // General settings
 // -------------------------
+#zone-branding-wrapper {
+  //background-color: @branding-bg;
+  background-color: @branding-bg;
+}
 #region-branding {
   padding-top: 25px;
   position: relative;
@@ -51,7 +55,7 @@
     // search
     float: right;
     clear: right;
-    margin-top: 25px;
+    margin-top: 0;
 
     @media @narrow {
         display: none;
@@ -82,7 +86,7 @@
     float: right;
     font-family: @font-family-light;
     font-size: 14px;
-    margin-top: 25px;
+    margin-top: 0;
 
     ul li a {
       font-size: 12px;
@@ -113,7 +117,7 @@
 
       &.active,
       &:hover {
-        color: @branding-bg;
+        color: @branding-bg-dark;
       }
     }
 
