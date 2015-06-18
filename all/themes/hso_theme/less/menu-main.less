@@ -7,7 +7,7 @@
 @small-column-width: 145px;
 @small-column-width-wb: @small-column-width+1;
 
-@medium-column-width: 175px; //115px;
+@medium-column-width: 140px; //115px;
 @medium-column-width-wb: @medium-column-width+1;
 
 @column-width: 186px; // 5 auf einer Zeile NEU 186px Alte Einstellung = 234px
@@ -40,11 +40,14 @@
 
   ul.menu {
     /* Submenu position under top menu */
-    background: @seg-color;
     left: @left-shift;
+    background: @seg-color;
 
     li,
-    li.double .view-content  {
+    li.double .view-content,
+    li.double .view-content-right {
+      /* only used in @normal size */
+      float: left;
       width: @column-width;
       border-right: 1px solid @seg-hover;
 
@@ -52,6 +55,11 @@
         color: @seg-hover-dark;
       }
     }
+    li.double .view-content-right {
+      /* aligns top of sub-columns */
+      padding-top: 33px;
+    }
+
   }
 
 }
@@ -121,6 +129,7 @@
       width: @small-column-width;
 
       &.nolink-main {
+        /* main no-links on all levels */
         display: inline-block;
         margin-top: 10px;
         padding: 0 10px;
@@ -132,6 +141,7 @@
 
       & .nolink,
       &.nolink {
+        /* no-links on all levels */
         display: inline-block;
         margin: 10px 0 7px;
         padding: 0 15px;
@@ -142,6 +152,7 @@
       }
 
       a {
+        /* general anchor definition (overridden on each level) */
         display: block;
         position: relative;
         font-family: @font-family-regular;
@@ -150,7 +161,7 @@
         text-decoration: none;
         line-height: 40px;
         height: 40px;
-        padding: 0 20px;
+        padding: 0 40px 0 20px;
         background: url(../images/menu_arrow.png) no-repeat 113px 19px;
       }
 
@@ -214,16 +225,16 @@
       }
       &.menu-mlid-988 {
         /* Kaderschule top-menu background */
-        .main-menu-item(@hso-kaderschule, @hso-kaderschule-hover, @hso-kaderschule-hover-dark, @left-shift: -290px);
+        .main-menu-item(@hso-kaderschule, @hso-kaderschule-hover, @hso-kaderschule-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-989 {
         /* Executive top-menu background */
-        .main-menu-item(@hso-executive, @hso-executive-hover, @hso-executive-hover-dark, @left-shift: -325px);
+        .main-menu-item(@hso-executive, @hso-executive-hover, @hso-executive-hover-dark, @left-shift: -229px);
       }
 
       &.menu-mlid-3216 {
         /* Sprachen top-menu background */
-        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: -372px);
+        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-3124 {
         /* placeholder to center 2nd menu row */
@@ -239,20 +250,6 @@
 
     }
   }
-}
-
-
-/*
- * define width of sub-columns when doubled
- */
-#block-menu-block-1 li.double .view-content,
-#block-menu-block-1 li.double .view-content-right {
-  float: left;
-  width: @column-width;
-}
-#block-menu-block-1 li.double .view-content-right {
-  /* aligns top of sub-columns */
-  padding-top: 33px;
 }
 
 /*
@@ -290,7 +287,7 @@
 
 @media @narrow {
   #block-menu-block-1 ul li {
-    width: @medium-column-width;     /* medium size menu */
+    width: @medium-column-width;     /* medium size top menu, all others have size @column-width */
   }
 
   /* place dropdown arrow for medium sized top menus */
@@ -298,16 +295,20 @@
     background-position: 143px 19px;
     font-size: 14px;
   }
-  #block-menu-block-1 ul li.menu-mlid-988 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
-    left: -295px;   /* left-shift last two menus, so that menu ends with last top menu  */
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
+    left: 0px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
+    left: 0px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
+    left: -117px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
+    left: -234px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
+    left: -234px;   /* left-shift last two menus, so that menu ends with last top menu  */
   }
 }
 
@@ -333,30 +334,36 @@
     width: 4 * @column-width-with-border !important;    /* 4 columns */
   }
   #block-menu-block-1 li.double {
-    width: 469px !important;
+    width: 2 * @column-width-with-border !important;
+  }
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
+    left: 0;   /* left-shift first menu, so that menu starts with second top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
+    left: 0;   /* left-shift first double menu, so that menu starts with first top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
+    left: 0;   /* left-shift second menu, so that menu starts with second top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
+    left: 0;   /* left-shift second double menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -@column-width-with-border;   /* left-shift second last menu, so that menu starts with second top menu  */
+    left: -@column-width-with-border;   /* left-shift third menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -2 * @column-width-with-border;   /* left-shift second last double menu, so that menu starts with first top menu  */
+    left: -@column-width-with-border;   /* left-shift third double menu, so that menu starts with first top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -2 * @column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
+    left: -@column-width-with-border;   /* left-shift forth menu, so that menu ends with last top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -3 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
+    left: -2 * @column-width-with-border;   /* left-shift forth double menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
-    left: -@column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
-  }
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double {
-    left: -2 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
-  }
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
     left: -2 * @column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double {
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
     left: -3 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
   }
 

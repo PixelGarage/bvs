@@ -4,7 +4,7 @@
 
 // Variables
 // -------------------------
-@menu-bg: #003B79;
+@menu-bg: transparent;
 
 
 // Mixins
@@ -21,14 +21,6 @@
   padding-top: 25px;
   position: relative;
   z-index: 2;
-
-  .block {
-    display: none;
-
-    @media @min-page {
-      display: block;
-    }
-  }
 
   .branding-data {
     // logo
@@ -55,13 +47,11 @@
 
   .block-search {
     // search
+    display: none;
     float: right;
     clear: right;
     margin-top: 0;
 
-    @media @narrow {
-        display: none;
-    }
     @media @normal {
       display: block;
     }
@@ -88,7 +78,11 @@
     float: right;
     font-family: @font-family-light;
     font-size: 14px;
-    margin-top: 0;
+    margin-top: -22px;
+
+    @media @normal {
+      margin-top: 0;
+    }
 
     ul li a {
       font-size: 12px;
@@ -131,6 +125,7 @@
 
 
 // mobile version
+/*
 body.responsive-layout-mobile #region-branding {
   z-index: 12;
 
@@ -175,5 +170,5 @@ body.responsive-layout-mobile #region-branding {
     }
   }
 }
-
+*/
 

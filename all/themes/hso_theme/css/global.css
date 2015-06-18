@@ -267,14 +267,6 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
   position: relative;
   z-index: 2;
 }
-#region-branding .block {
-  display: none;
-}
-@media all and (min-width: 640px) and (min-device-width: 640px) {
-  #region-branding .block {
-    display: block;
-  }
-}
 #region-branding .branding-data {
   float: left;
 }
@@ -293,14 +285,10 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
   font-size: 12px;
 }
 #region-branding .block-search {
+  display: none;
   float: right;
   clear: right;
   margin-top: 0;
-}
-@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
-  #region-branding .block-search {
-    display: none;
-  }
 }
 @media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape) {
   #region-branding .block-search {
@@ -327,7 +315,12 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
   float: right;
   font-family: 'Soho Gothic W01 Light', sans-serif;
   font-size: 14px;
-  margin-top: 0;
+  margin-top: -22px;
+}
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape) {
+  #region-branding #menu_appended #block-menu-block-4 {
+    margin-top: 0;
+  }
 }
 #region-branding #menu_appended #block-menu-block-4 ul li a {
   font-size: 12px;
@@ -367,43 +360,52 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
 #block-menu-block-4 ul li.first a {
   border: none;
 }
+/*
 body.responsive-layout-mobile #region-branding {
   z-index: 12;
+
+  #menu_appended {
+    position: absolute;
+    right: 0;
+    top: 125px;
+    padding-top: 40px;
+    width: 40px;
+    background: @menu-bg url(../images/menu_more.jpg) no-repeat 9px 10px;
+
+    .wrapper {
+      display: none;
+
+      #block-menu-block-4 {
+        display: block;
+      }
+    }
+
+    &.hover .wrapper {
+      display: block;
+      position: absolute;
+      left: -300px;
+      padding: 20px;
+      width: 300px;
+      background: @menu-bg;
+
+      #block-menu-block-4 {
+        float: none;
+        margin: 0;
+
+        ul li {
+          display: block;
+
+          a {
+            color: #fff;
+            line-height: 30px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
 }
-body.responsive-layout-mobile #region-branding #menu_appended {
-  position: absolute;
-  right: 0;
-  top: 125px;
-  padding-top: 40px;
-  width: 40px;
-  background: #003b79 url(../images/menu_more.jpg) no-repeat 9px 10px;
-}
-body.responsive-layout-mobile #region-branding #menu_appended .wrapper {
-  display: none;
-}
-body.responsive-layout-mobile #region-branding #menu_appended .wrapper #block-menu-block-4 {
-  display: block;
-}
-body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper {
-  display: block;
-  position: absolute;
-  left: -300px;
-  padding: 20px;
-  width: 300px;
-  background: #003b79;
-}
-body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #block-menu-block-4 {
-  float: none;
-  margin: 0;
-}
-body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #block-menu-block-4 ul li {
-  display: block;
-}
-body.responsive-layout-mobile #region-branding #menu_appended.hover .wrapper #block-menu-block-4 ul li a {
-  color: #fff;
-  line-height: 30px;
-  border: none;
-}
+*/
 /*
  *  Top Banner component
  * --------------------------------------------------*/
@@ -537,6 +539,7 @@ body.langcollege_section #zone-menu-wrapper {
   width: 145px;
 }
 #block-menu-block-1 ul li.nolink-main {
+  /* main no-links on all levels */
   display: inline-block;
   margin-top: 10px;
   padding: 0 10px;
@@ -547,6 +550,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li .nolink,
 #block-menu-block-1 ul li.nolink {
+  /* no-links on all levels */
   display: inline-block;
   margin: 10px 0 7px;
   padding: 0 15px;
@@ -556,6 +560,7 @@ body.langcollege_section #zone-menu-wrapper {
   text-decoration: none;
 }
 #block-menu-block-1 ul li a {
+  /* general anchor definition (overridden on each level) */
   display: block;
   position: relative;
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
@@ -564,7 +569,7 @@ body.langcollege_section #zone-menu-wrapper {
   text-decoration: none;
   line-height: 40px;
   height: 40px;
-  padding: 0 20px;
+  padding: 0 40px 0 20px;
   background: url(../images/menu_arrow.png) no-repeat 113px 19px;
 }
 #block-menu-block-1 ul li ul.menu {
@@ -628,17 +633,25 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
   /* Submenu position under top menu */
-  background: #e7d400;
   left: 0px;
+  background: #e7d400;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content {
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content,
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
+  /* only used in @normal size */
+  float: left;
   width: 186px;
   border-right: 1px solid #e7d400;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover {
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover,
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right a:hover {
   color: #958900;
+}
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
+  /* aligns top of sub-columns */
+  padding-top: 33px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
@@ -661,17 +674,25 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
   /* Submenu position under top menu */
-  background: #e77431;
   left: 0px;
+  background: #e77431;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content {
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content,
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
+  /* only used in @normal size */
+  float: left;
   width: 186px;
   border-right: 1px solid #e56b23;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover {
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover,
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right a:hover {
   color: #f2b28c;
+}
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
+  /* aligns top of sub-columns */
+  padding-top: 33px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
@@ -694,17 +715,25 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
   /* Submenu position under top menu */
+  left: 0px;
   background: #003b79;
-  left: -290px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content {
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content,
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right {
+  /* only used in @normal size */
+  float: left;
   width: 186px;
   border-right: 1px solid #00346a;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content a:hover {
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content a:hover,
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right a:hover {
   color: #002246;
+}
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right {
+  /* aligns top of sub-columns */
+  padding-top: 33px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 {
   /* Executive top-menu background */
@@ -727,17 +756,25 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
   /* Submenu position under top menu */
+  left: -229px;
   background: #b1a896;
-  left: -325px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content {
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content,
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
+  /* only used in @normal size */
+  float: left;
   width: 186px;
   border-right: 1px solid #aaa18d;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content a:hover {
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content a:hover,
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right a:hover {
   color: #645b4a;
+}
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
+  /* aligns top of sub-columns */
+  padding-top: 33px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
@@ -760,17 +797,25 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
   /* Submenu position under top menu */
+  left: 0px;
   background: #e42618;
-  left: -372px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
-#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content {
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content,
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
+  /* only used in @normal size */
+  float: left;
   width: 186px;
   border-right: 1px solid #d62417;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
-#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover {
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover,
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right a:hover {
   color: #f07b72;
+}
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
+  /* aligns top of sub-columns */
+  padding-top: 33px;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -781,18 +826,6 @@ body.langcollege_section #zone-menu-wrapper {
   width: 100%;
   text-indent: 100%;
   white-space: nowrap;
-}
-/*
- * define width of sub-columns when doubled
- */
-#block-menu-block-1 li.double .view-content,
-#block-menu-block-1 li.double .view-content-right {
-  float: left;
-  width: 186px;
-}
-#block-menu-block-1 li.double .view-content-right {
-  /* aligns top of sub-columns */
-  padding-top: 33px;
 }
 /*
  * Top menu drop-down arrow and hyperlink styling (only visible when menu is hovered)
@@ -823,24 +856,28 @@ body.langcollege_section #zone-menu-wrapper {
 }
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
   #block-menu-block-1 ul li {
-    width: 175px;
-    /* medium size menu */
+    width: 140px;
+    /* medium size top menu, all others have size @column-width */
   }
   /* place dropdown arrow for medium sized top menus */
   #block-menu-block-1 ul li a {
     background-position: 143px 19px;
     font-size: 14px;
   }
-  #block-menu-block-1 ul li.menu-mlid-988 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-989 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu,
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double,
-  #block-menu-block-1 ul li.menu-mlid-3049 ul.menu {
-    left: -295px;
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
+    left: 0px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
+    left: 0px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
+    left: -117px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
+    left: -234px;
+  }
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
+    left: -234px;
     /* left-shift last two menus, so that menu ends with last top menu  */
   }
 }
@@ -867,37 +904,45 @@ body.langcollege_section #zone-menu-wrapper {
     /* 4 columns */
   }
   #block-menu-block-1 li.double {
-    width: 469px !important;
+    width: 374px !important;
+  }
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
+    left: 0;
+    /* left-shift first menu, so that menu starts with second top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
+    left: 0;
+    /* left-shift first double menu, so that menu starts with first top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
+    left: 0;
+    /* left-shift second menu, so that menu starts with second top menu  */
+  }
+  #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
+    left: 0;
+    /* left-shift second double menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: -187px;
-    /* left-shift second last menu, so that menu starts with second top menu  */
+    /* left-shift third menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -374px;
-    /* left-shift second last double menu, so that menu starts with first top menu  */
+    left: -187px;
+    /* left-shift third double menu, so that menu starts with first top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -374px;
-    /* left-shift last menu, so that menu ends with last top menu  */
+    left: -187px;
+    /* left-shift forth menu, so that menu ends with last top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -561px;
-    /* left-shift last double menu, so that menu ends with last top menu  */
-  }
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu {
-    left: -187px;
-    /* left-shift last menu, so that menu ends with last top menu  */
-  }
-  #block-menu-block-1 ul li.menu-mlid-3218 ul.menu.double {
     left: -374px;
-    /* left-shift last double menu, so that menu ends with last top menu  */
+    /* left-shift forth double menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu {
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
     left: -374px;
     /* left-shift last menu, so that menu ends with last top menu  */
   }
-  #block-menu-block-1 ul li.menu-mlid-3219 ul.menu.double {
+  #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
     left: -561px;
     /* left-shift last double menu, so that menu ends with last top menu  */
   }
