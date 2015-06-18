@@ -283,7 +283,8 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
 }
 #region-branding .branding-data .logo-img #logo {
   margin-bottom: 22px;
-  max-height: 90px;
+  max-height: 60px;
+  width: auto;
 }
 #region-branding #block-menu-block-3 {
   /* meta top menu */
