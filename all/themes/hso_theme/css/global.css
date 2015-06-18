@@ -1938,6 +1938,21 @@ body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .vie
   color: #e42618;
 }
 /*
+ *  Team BVS with Group Images
+ * --------------------------------------------------*/
+.panel-pane {
+  display: block;
+}
+.panel-pane .view.view-team .views-row {
+  display: inline-block;
+  width: 50%;
+  margin: 10px -2px 0;
+  vertical-align: top;
+}
+.panel-pane .view.view-team .user_profile {
+  float: none;
+}
+/*
  *  Team Dozenten pane
  * --------------------------------------------------*/
 .pane-team-panel-pane-1 .pane-title {
