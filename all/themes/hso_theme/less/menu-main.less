@@ -70,23 +70,23 @@
 // menu background
 #zone-menu-wrapper {
   position: relative;
-  #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+   #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
 
   // specific menu background
   body.kvcollege_section & {
-    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+    #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
   }
   body.hscollege_section & {
-    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+    #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
   }
   body.kscollege_section & {
-    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+    #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
   }
   body.excollege_section & {
-    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+    #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
   }
   body.langcollege_section & {
-    #hso-mixins.vertical-gradient(#AFBDD1, #fff, 0%, 90%);
+    #hso-mixins.vertical-gradient(@branding-bg-header, #fff, 0%, 100%);
   }
 }
 
@@ -217,24 +217,24 @@
       // specific top menu items
       &.menu-mlid-986 {
         /* KV Kollege top-menu background (normal, hovered) */
-        .main-menu-item(@hso-kv-college, @hso-kv-college-hover, @hso-kv-college-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-kv-college, @hso-kv-college, @hso-kv-college-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-987 {
         /* Handelsschule top-menu background */
-        .main-menu-item(@hso-handelsschule, @hso-handelsschule-hover, @hso-handelsschule-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-handelsschule, @hso-handelsschule, @hso-handelsschule-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-988 {
         /* Kaderschule top-menu background */
-        .main-menu-item(@hso-kaderschule, @hso-kaderschule-hover, @hso-kaderschule-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-kaderschule, @hso-kaderschule, @hso-kaderschule-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-989 {
         /* Executive top-menu background */
-        .main-menu-item(@hso-executive, @hso-executive-hover, @hso-executive-hover-dark, @left-shift: -229px);
+        .main-menu-item(@hso-executive, @hso-executive, @hso-executive-hover-dark, @left-shift: -229px);
       }
 
       &.menu-mlid-3216 {
         /* Sprachen top-menu background */
-        .main-menu-item(@hso-sprachen, @hso-sprachen-hover, @hso-sprachen-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-sprachen, @hso-sprachen, @hso-sprachen-hover-dark, @left-shift: 0px);
       }
       &.menu-mlid-3124 {
         /* placeholder to center 2nd menu row */

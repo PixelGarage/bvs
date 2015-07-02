@@ -10,8 +10,8 @@
 // -------------------------
 .specific-mini-segment-blog (@seg-color; @blog-color; @blog-icon; @pane-color) {
   h2.block-title {
-    background: @blog-color @blog-icon no-repeat 0 0;
-    padding-left: 50px;
+    background: @seg-color no-repeat 0 0;
+    padding-left: 20px;
   }
 
   .pane-title {
@@ -42,7 +42,7 @@
     color: #fff;
     line-height: 20px;
     border-bottom: 1px solid #fff;
-    background: @branding-bg url(../images/blog_icon.png) no-repeat 12px 18px;
+    background: @branding-bg-dark url(../images/blog_icon.png) no-repeat 12px 18px;
   }
 
   .pane-title {
@@ -59,7 +59,7 @@
     text-align: center;
     text-decoration: none;
     border-left: 1px solid #fff;
-    background: lighten(@branding-bg, 15%);
+    background: @branding-bg;
 
     &.first {
       border-left: none;
@@ -67,7 +67,7 @@
 
     &.active,
     &:hover {
-      background: @branding-bg;
+      background: @branding-bg-dark;
 
       .arrow {
         display: block;
@@ -84,7 +84,7 @@
       top: 27px;
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
-      border-top: 5px solid @branding-bg;
+      border-top: 5px solid @branding-bg-dark;
     }
   }
 
@@ -142,7 +142,7 @@ body.responsive-layout-mobile.front {
     .specific-mini-segment-blog(@hso-executive; lighten(@hso-executive, 20%); url(../images/ex_blog.png); lighten(@hso-executive, 15%));
   }
   body.langcollege_section & {
-    .specific-mini-segment-blog(@hso-sprachen; lighten(@hso-sprachen, 20%); none; lighten(@hso-sprachen, 15%));
+    .specific-mini-segment-blog(@hso-sprachen; lighten(@hso-sprachen, 20%); url(../images/blog_icon.png); lighten(@hso-sprachen, 15%));
   }
 }
 
