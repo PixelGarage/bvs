@@ -37,7 +37,7 @@ body.responsive-layout-narrow .container-12 .grid-8#region-preface-first {
   border-top: 4px solid #7db956;
 }
 body.kvcollege_section #page {
-  border-top-color: #178fc8;
+  border-top-color: #199cda;
 }
 body.hscollege_section #page {
   border-top-color: #7db956;
@@ -616,25 +616,25 @@ body.langcollege_section #zone-menu-wrapper {
   /* KV Kollege top-menu background (normal, hovered) */
 }
 #block-menu-block-1 ul li.menu-mlid-986 a {
-  background-color: #178fc8;
+  background-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a span.arrow {
-  border-top-color: #178fc8;
+  border-top-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-986:hover a {
-  background-color: #178fc8;
+  background-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986:hover a span.arrow {
-  border-top-color: #178fc8;
+  border-top-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
   /* Submenu position under top menu */
   left: 0px;
-  background: #178fc8;
+  background: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content,
@@ -642,7 +642,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* only used in @normal size */
   float: left;
   width: 186px;
-  border-right: 1px solid #178fc8;
+  border-right: 1px solid #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover,
@@ -723,7 +723,7 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 186px;
+  width: 232px;
   border-right: 1px solid #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
@@ -871,7 +871,7 @@ body.langcollege_section #zone-menu-wrapper {
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -117px;
+    left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -234px;
@@ -923,12 +923,17 @@ body.langcollege_section #zone-menu-wrapper {
     /* left-shift second double menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -187px;
+    left: 0;
     /* left-shift third menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -187px;
+    left: 0;
     /* left-shift third double menu, so that menu starts with first top menu  */
+    width: 935px !important;
+    /* 5 columns */
+  }
+  #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double li.double {
+    width: 466px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -187px;
@@ -1061,11 +1066,11 @@ body.langcollege_section #zone-menu-wrapper {
 }
 body.kvcollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kvcollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #178fc8;
+  background: #199cda;
 }
 body.kvcollege_section .block-banners-block-1 .banner_pagination li.page.current a,
 body.kvcollege_section .block-banners-block .banner_pagination li.page.current a {
-  background: #178fc8;
+  background: #199cda;
 }
 body.hscollege_section .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.hscollege_section .block-banners-block .banner .views-field-field-banner-links ul li a {
@@ -1139,17 +1144,17 @@ body.node-type-course #region-sidebar-second {
   border-bottom: none;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock caption {
-  color: #178fc8;
+  color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #178fc8;
-  border-top-color: #178fc8;
+  border-bottom-color: #199cda;
+  border-top-color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #178fc8;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #178fc8;
+  border-bottom-color: #199cda;
 }
 body.hscollege_section .node.node-course table.aufeinenblock caption {
   color: #7db956;
@@ -1520,10 +1525,10 @@ body.node-type-news .node.node-news .with_picture .block-hso-mods ul li a:hover 
   border: none;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-item a {
-  color: #178fc8;
+  color: #199cda;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #178fc8;
+  background-color: #199cda;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-item a {
   color: #7db956;
@@ -1614,17 +1619,17 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   background-position: 0 -25px;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #178fc8;
-  background: #86cff1;
+  border-top-color: #199cda;
+  background: #99d6f3;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #178fc8;
+  color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #178fc8;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #9dd8f4;
+  background-color: #b0dff6;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_kv.jpg);
@@ -1869,27 +1874,27 @@ body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .n
   border-left: 2px solid #b2b2b2;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #178fc8;
-  border-bottom-color: #178fc8;
+  color: #199cda;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #178fc8;
+  background: none #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #178fc8;
+  color: #199cda;
   background-color: #fff;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #178fc8;
+  background: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/kv_teaser_tabs_pager.png);
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #178fc8;
+  color: #199cda;
 }
 body.hscollege_section .panel-pane.pane-course-intros .pane-title {
   color: #7db956;
@@ -2135,7 +2140,7 @@ body.langcollege_section .pane-team-panel-pane-1 .pane-content a.browse {
   text-decoration: none;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul {
-  background: #178fc8;
+  background: #199cda;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
   background: #178fc8;
@@ -2373,10 +2378,10 @@ body.kvcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.jpg) no-repeat 0 1px;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #178fc8;
+  background: none #199cda;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #178fc8;
+  color: #199cda;
   background-color: #fff;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2384,13 +2389,13 @@ body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #178fc8;
+  border-bottom: 4px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #178fc8;
+  border-bottom: 1px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #178fc8;
+  border-bottom: 4px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #dfeac5;
@@ -2399,7 +2404,7 @@ body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ecf2dc;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #178fc8;
+  background: #199cda;
 }
 body.hscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.jpg) no-repeat 0 1px;
@@ -3330,18 +3335,18 @@ body.responsive-layout-mobile.front #block-panels-mini-home-blog {
   margin-right: 8px;
 }
 body.kvcollege_section #block-panels-mini-segment-blog h2.block-title {
-  background: #178fc8 no-repeat 0 0;
+  background: #199cda no-repeat 0 0;
   padding-left: 20px;
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title {
-  background: #42b3e9;
+  background: #54bbeb;
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title.active,
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title:hover {
-  background: #178fc8;
+  background: #199cda;
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title .arrow {
-  border-top-color: #178fc8;
+  border-top-color: #199cda;
 }
 body.hscollege_section #block-panels-mini-segment-blog h2.block-title {
   background: #7db956 no-repeat 0 0;
@@ -3537,7 +3542,7 @@ body.responsive-layout-mobile.front #block-block-2 {
   color: #6e6e6e;
 }
 body.kvcollege_section #block-views-fachwissen-block h2.block-title {
-  background: #178fc8 no-repeat 0 0;
+  background: #199cda no-repeat 0 0;
 }
 body.hscollege_section #block-views-fachwissen-block h2.block-title {
   background: #7db956 no-repeat 0 0;
@@ -3611,7 +3616,7 @@ body.langcollege_section #block-views-fachwissen-block h2.block-title {
   font-size: 14px;
 }
 body.kvcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #178fc8;
+  background-color: #199cda;
 }
 body.hscollege_section #block-views-ber-den-autor-block h2.block-title {
   background-color: #7db956;
@@ -3731,7 +3736,7 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts,
 body.kvcollege_section .block-views-contacts-block-course-contacts {
-  background: #178fc8;
+  background: #199cda;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {

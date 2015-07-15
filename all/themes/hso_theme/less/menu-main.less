@@ -18,7 +18,7 @@
 // -------------------------
 
 // Main menu item definition
-.main-menu-item(@seg-color, @seg-hover, @seg-hover-dark, @left-shift: 0px) {
+.main-menu-item(@seg-color, @seg-hover, @seg-hover-dark, @left-shift: 0px, @wColumn: @column-width) {
   a {
     background-color: @seg-color;
 
@@ -48,7 +48,7 @@
     li.double .view-content-right {
       /* only used in @normal size */
       float: left;
-      width: @column-width;
+      width: @wColumn;
       border-right: 1px solid @seg-hover;
 
       a:hover {
@@ -225,7 +225,7 @@
       }
       &.menu-mlid-988 {
         /* Kaderschule top-menu background */
-        .main-menu-item(@hso-kaderschule, @hso-kaderschule, @hso-kaderschule-hover-dark, @left-shift: 0px);
+        .main-menu-item(@hso-kaderschule, @hso-kaderschule, @hso-kaderschule-hover-dark, @left-shift: 0px, @wColumn: 232px);
       }
       &.menu-mlid-989 {
         /* Executive top-menu background */
@@ -302,7 +302,7 @@
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -117px;
+    left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -234px;
@@ -349,10 +349,14 @@
     left: 0;   /* left-shift second double menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
-    left: -@column-width-with-border;   /* left-shift third menu, so that menu starts with second top menu  */
+    left: 0;   /* left-shift third menu, so that menu starts with second top menu  */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
-    left: -@column-width-with-border;   /* left-shift third double menu, so that menu starts with first top menu  */
+    left: 0;   /* left-shift third double menu, so that menu starts with first top menu  */
+    width: 5 * @column-width-with-border !important;    /* 5 columns */
+  }
+  #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double li.double {
+    width: 466px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -@column-width-with-border;   /* left-shift forth menu, so that menu ends with last top menu  */

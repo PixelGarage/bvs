@@ -8,9 +8,9 @@
   //(Lehrgänge = 61, Management und Führung=62, Marketing und Verkauf=63, Organisation und Personal=64,
   // Finanzen=65, Höhere Fachschule = 66, Fachhochschule=67)
   $columnClass = ' class = "menu-view-column-';
-  if ($title === 'Lehrgänge' || $title === 'Kaufmann/Kauffrau Fähigkeitszeugnis' || $title === 'Handelsdiplom VSH Vollzeit' || $title === 'Bürofachdiplom VSH Vollzeit' || $title === 'Höhere Fachschule' || $title === 'Nachdiplomstudien NDS' ) {
+  if ($title === 'Lehrgänge' || $title === 'Höhere Fachschule' || $title === 'Nachdiplomstudien NDS' || $title === 'Eidg. höhere Fachprüfung' ) {
     $columnClass .= '1">';
-  } elseif ($title === 'Eidg. höhere Fachprüfung' || $title === 'Eidg. Fachausweise') {
+  } elseif ($title === 'Eidg. Fachausweise' || $title === 'SIZ Lehrgänge') {
     $columnClass .= '2">';
   } else {
     $columnClass .= '3">';
