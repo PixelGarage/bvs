@@ -48,6 +48,7 @@
       color: #fff;
       height: 30px;
       min-width: 210px;
+      max-width: 500px;
       z-index: 4;
 
       &:hover {
@@ -128,7 +129,7 @@
     height: 63px;
     font-family: @font-family-medium;
     font-size: @font-size-small;
-    color: #fff;
+    color: transparent;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -147,9 +148,6 @@
   }
   body.excollege_section & {
     .specific-anmelde-button(url(../images/ex_anmelden.png));
-  }
-  body.infcollege_section & {
-    .specific-anmelde-button(url(../images/lc_anmelden.png));
   }
   body.langcollege_section & {
     .specific-anmelde-button(url(../images/lang_anmelden.png));
