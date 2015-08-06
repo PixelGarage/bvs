@@ -1668,7 +1668,7 @@ body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
   border-top-color: #b1a896;
-  background: #ffffff;
+  background: #f2f1ee;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
   color: #b1a896;
@@ -1677,7 +1677,7 @@ body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
   border-bottom-color: #b1a896;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #ffffff;
+  background-color: #fdfdfc;
 }
 body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_ex.jpg);
@@ -2396,10 +2396,10 @@ body.kvcollege_section .view-course-tabs #startdaten .view-course-times table th
   border-bottom: 4px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #dfeac5;
+  background: #b0dff6;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #ecf2dc;
+  background: #ddf2fb;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
   background: #199cda;
@@ -2428,10 +2428,10 @@ body.hscollege_section .view-course-tabs #startdaten .view-course-times table th
   border-bottom: 4px solid #7db956;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #ffdbb7;
+  background: #deedd4;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #ffe8d3;
+  background: #fafcf8;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
   background: #7db956;
@@ -2460,10 +2460,10 @@ body.kscollege_section .view-course-tabs #startdaten .view-course-times table th
   border-bottom: 4px solid #003b79;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #dfd4e7;
+  background: #c5e2ff;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #ebe4f1;
+  background: #f9fcff;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
   background: #003b79;
@@ -2492,10 +2492,10 @@ body.excollege_section .view-course-tabs #startdaten .view-course-times table th
   border-bottom: 4px solid #b1a896;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
-  background: #dfdfdf;
+  background: #fdfdfc;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.even {
-  background: #efefef;
+  background: #ffffff;
 }
 body.excollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
   background: #b1a896;
