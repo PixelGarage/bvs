@@ -22,23 +22,42 @@ function hso_anmeldung_menu() {
 }
 
 /**
- * Downloads the pdf-anmeldung contract with the given hash.
+ * Menu callback of a PDF download request.
  *
- * @param $hash
+ * @param $hash	string 	Unique string indicating the contract pdf to be downloaded.
  */
 function _hso_get_anmeldung_pdf($hash) {
 	if (preg_match('/^[a-z0-9]{32}$/i', $hash)) {
-    $dir_uri = file_stream_wrapper_get_instance_by_uri('private://anmeldung');
-		$pdf = $dir_uri->realpath() . '/anmeldung_logo_' . $hash . '.pdf';
-		if (file_exists($pdf)) {
-			if (filemtime($pdf) >= time() - 28 * 86400) {
-				file_transfer('private://anmeldung/anmeldung_logo_' . $hash . '.pdf', array(
-					'Cache-control'       => 'private',
-					'Content-Type'        => 'application/octet-stream',
-					'Content-Disposition' => 'attachment; filename="Ausbildungsvertrag.pdf"',
-					'Content-Length' => filesize($pdf)
-				));
-			}
+		$pdf = 'private://anmeldung/anmeldung_logo_' . $hash . '.pdf';
+		hso_anmeldung_transfer_pdf($pdf, 'Ausbildungsvertrag.pdf', false, 28 * 86400);
+	}
+	drupal_not_found();
+	drupal_exit();
+}
+
+/**
+ * Downloads / shows the pdf with the given file name from the private folder.
+ *
+ * @param string $pdf_uri						A stream, referenced as "scheme://target".
+ * @param string $filename          The filename of the downloaded file.
+ * @param bool   $show_file_inline  Flag, if TRUE shows the file inline (in the browser), otherwise downloads the file to the client.
+ * @param int    $valid_duration		Duration during which the file is valid (default: -1 meaning no time limit)
+ */
+function hso_anmeldung_transfer_pdf($pdf_uri, $filename, $show_file_inline = false, $valid_duration = -1) {
+	// get stream wrapper instance for pdf
+	$stream_wrapper = file_stream_wrapper_get_instance_by_uri($pdf_uri);
+	$pdf_path = $stream_wrapper->realpath();
+
+	if (file_exists($pdf_path)) {
+		if ($valid_duration < 0 || filemtime($pdf_path) >= time() - $valid_duration) {
+			$content_dispo = $show_file_inline ? 'inline' : 'attachment';
+			$content_dispo .= '; filename="' . $filename . '"';
+			file_transfer($pdf_uri, array(
+				'Cache-control'       => 'private',
+				'Content-Type'        => 'application/pdf', // 'application/octet-stream'
+				'Content-Disposition' => $content_dispo,
+				'Content-Length' => filesize($pdf_path)
+			));
 		}
 	}
 	drupal_not_found();
@@ -402,14 +421,37 @@ function _hso_add_pdf_footer(&$pdf_document, $context) {
  * HSO Anmeldung-Webform alteration
  * --------------------------------------------------*/
 
+function &hso_anmeldung_session_data() {
+	if (!isset($_SESSION['hso_anmeldung'])) {
+		$_SESSION['hso_anmeldung'] = array();
+	}
+	return $_SESSION['hso_anmeldung'];
+}
+
+
 /**
  * Implements hook_form_alter().
  *
  * Alters the anmeldung webforms with additional text.
 */
 function hso_anmeldung_form_alter(&$form, &$form_state, $form_id) {
-  // extend all anmeldungs forms (default, european, ecdl)
-  if ($form_id == 'webform_client_form_264' || $form_id == 'webform_client_form_475' || $form_id == 'webform_client_form_476') {
+	if ($form_id == 'webform_client_form_7525') {
+		// add course id to download leaflet form
+		// leave when in admin mode
+		if (arg(0) == 'admin') return;
+
+		if (arg(0) == 'node' && is_numeric(arg(1))) {
+			// form embedded in course page
+			$session_data = &hso_anmeldung_session_data();
+			if (arg(1) != 7525) {
+				$session_data['course_nid'] = arg(1);
+			} else {
+				$form['submitted']['course_nid']['#value'] = $session_data['course_nid'];
+			}
+		}
+
+	} else if ($form_id == 'webform_client_form_264' || $form_id == 'webform_client_form_475' || $form_id == 'webform_client_form_476') {
+		// extend all anmeldungs forms (default, european, ecdl)
   	$prevent_access = TRUE;
     // leave when in admin mode
     if (arg(0) == 'admin') return;
