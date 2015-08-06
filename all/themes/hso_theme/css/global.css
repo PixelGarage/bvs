@@ -1652,7 +1652,7 @@ body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
   border-top-color: #003b79;
-  background: #46a0ff;
+  background: #c5e2ff;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
   color: #003b79;
@@ -1661,7 +1661,7 @@ body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
   border-bottom-color: #003b79;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #60adff;
+  background-color: #f9fcff;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest.jpg);
