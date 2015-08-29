@@ -436,7 +436,7 @@ if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i))
 				}).filter(':first').click();
 			});
 		}
-	}
+	};
 	Drupal.behaviors.ecdl_anmeldung = {
 		attach: function(context) {
 			$('#webform-client-form-476', context).once(function() {
@@ -453,7 +453,13 @@ if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i))
 				checkCount();
 			});
 		}
-	}
+	};
+	Drupal.behaviors.dynamicSelectBoxes = {
+		attach: function () {
+
+		}
+	};
+
 	$.fn.extend({
 		linkUrl: function() {
 			var returning = [];
