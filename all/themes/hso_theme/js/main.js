@@ -456,7 +456,48 @@ if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i))
 	};
 	Drupal.behaviors.dynamicSelectBoxes = {
 		attach: function () {
+			var $webform = $('form#webform-client-form-1336'),
+				$selectInteresse = $webform.find('#edit-submitted-interesse'),
+				$compAbschluss = $webform.find('#webform-component-abschluss'),
+				$selectAbschluss = $webform.find('#edit-submitted-abschluss'),
+				$compLehrgang = $webform.find('#webform-component-lehrgang'),
+				$selectLehrgang = $webform.find('#edit-submitted-lehrgang');
 
+			// hide select boxes and reset interesse select box
+			$compAbschluss.hide();
+			$compLehrgang.hide();
+			$selectInteresse.val(-1);
+
+			$selectInteresse.once('change', function() {
+				$(this).change(function() {
+					var tid = $selectInteresse.find('option:selected').val();
+
+					$selectAbschluss.html('<option>Auswahl wird geladen...</option>');
+					$compAbschluss.show(300);
+					$compLehrgang.hide();
+					$selectAbschluss.load( Drupal.settings.basePath + 'get_graduations/' + tid, function( response, status, xhr ) {
+						if ( status == "error" ) {
+							$selectAbschluss.html( "Keine Daten gefunden" );
+						}
+					});
+
+				});
+			});
+			$selectAbschluss.once('change', function() {
+				$(this).change(function() {
+					var tid = $selectInteresse.find('option:selected').val(),
+						tid2 = $selectAbschluss.find('option:selected').val();
+
+					$selectLehrgang.html('<option>Lehrgänge werden geladen...</option>');
+					$compLehrgang.show(300);
+					$selectLehrgang.load( Drupal.settings.basePath + 'get_courses/' + tid + '/' + tid2, function( response, status, xhr ) {
+						if ( status == "error" ) {
+							$selectLehrgang.html( "Keine Daten gefunden" );
+						}
+					});
+
+				});
+			});
 		}
 	};
 

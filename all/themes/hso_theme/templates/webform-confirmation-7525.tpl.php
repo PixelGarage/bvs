@@ -28,12 +28,13 @@
   }
 
   if ($course_nid) {
-    $course_node = node_load($course_nid);
-    if ($course_node && !empty($course_node->field_leaflet_download)) {
-      $doc = $course_node->field_leaflet_download[LANGUAGE_NONE][0]['value'] ?
-                $course_node->field_leaflet_download[LANGUAGE_NONE][0]['value'] : 'prospekt_berufswahl';
-      $leaflet = 'private://leaflets/' . $doc . '.pdf';
-      hso_anmeldung_transfer_pdf($leaflet, 'Kurs-Details.pdf', true);
+    $course = node_load($course_nid);
+    if ($course && !empty($course->field_brochure)) {
+      $brochure = node_load($course->field_brochure[LANGUAGE_NONE][0]['target_id']);
+      if ($brochure && !empty($brochure->field_file)) {
+        $pdf = $brochure->field_file[LANGUAGE_NONE][0]['uri'];
+        hso_anmeldung_transfer_pdf($pdf, 'Kurs-Details.pdf', true);
+      }
     }
   }
 ?>

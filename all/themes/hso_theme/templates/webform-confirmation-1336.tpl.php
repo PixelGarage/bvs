@@ -14,18 +14,41 @@
  * - $confirmation_message: The confirmation message input by the webform author.
  * - $sid: The unique submission ID of this submission.
  */
+
+  module_load_include('inc', 'webform', 'includes/webform.submissions');
+  $submission = webform_get_submission($node->nid, $sid);
+
+  // get course node
+  $webform_components = $node->webform['components'];
+  foreach ($webform_components as $key => $data) {
+    if ($data['form_key'] == 'lehrgang') {
+      $course_nid = $submission->data[$key]['value'][0];
+      break;
+    }
+  }
+
+  if ($course_nid) {
+    $course = node_load($course_nid);
+    if ($course && !empty($course->field_brochure)) {
+      $brochure = node_load($course->field_brochure[LANGUAGE_NONE][0]['target_id']);
+      if ($brochure && !empty($brochure->field_file)) {
+        $pdf = $brochure->field_file[LANGUAGE_NONE][0]['uri'];
+        hso_anmeldung_transfer_pdf($pdf, 'Kurs-Details.pdf', true);
+      }
+    }
+  }
 ?>
 
 <div class="webform-confirmation">
   <?php if ($confirmation_message): ?>
     <?php print $confirmation_message ?>
   <?php else: ?>
-    <p><?php print t('Thank you, your submission has been received.'); ?></p>
-  <?php endif; ?>
+  <p>Besten Dank für Ihr Interesse an unseren Ausbildungs-Lehrgängen. Der angeforderte Prospekt ist zur Zeit leider nicht verfügbar.<p>
+    <?php endif; ?>
 </div>
 
 <div class="links">
-  <a href="<?php print url('node/'. $node->nid) ?>"><?php print t('Go back to the form') ?></a>
+  <a href="<?php print url('node/' . $course_nid); ?>">Zurück zum Kurs/Lehrgang</a>
 </div>
 
 <script src="http://cdn.cxense.com/cx.js" type="text/javascript"></script>

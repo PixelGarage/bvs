@@ -1504,7 +1504,7 @@ body.node-type-news .node.node-news .with_picture .block-hso-mods ul li a:hover 
 .node-webform form.webform-client-form .webform-container-inline input.form-text,
 .node-webform form.webform-client-form .webform-container-inline select.form-select {
   padding: 0 5px;
-  width: 400px;
+  width: 50%;
   height: 30px;
   font-family: 'Soho Gothic W01 Light', sans-serif;
   font-size: 14px;
@@ -1512,7 +1512,7 @@ body.node-type-news .node.node-news .with_picture .block-hso-mods ul li a:hover 
   border: 1px solid #dbdbdb;
 }
 .node-webform form.webform-client-form .webform-container-inline select.form-select {
-  width: 120px;
+  min-width: 120px;
 }
 .node-webform form.webform-client-form .form-actions .form-submit {
   margin: 10px 0;
