@@ -1,7 +1,5 @@
 <?php
-$export_time = 1430515229;
-
-
+$export_time = 1441021227;
 $data = array(
   'bundles' => array(
     'user' => NULL,
@@ -290,6 +288,70 @@ $data = array(
         'node' => array(
           0 => 'contact',
         ),
+        'user' => array(
+          0 => 'user',
+        ),
+      ),
+    ),
+    'field_organisation' => array(
+      'translatable' => '0',
+      'entity_types' => array(),
+      'settings' => array(
+        'allowed_values' => array(
+          0 => array(
+            'vocabulary' => 'organisation',
+            'parent' => '0',
+          ),
+        ),
+      ),
+      'storage' => array(
+        'type' => 'field_sql_storage',
+        'settings' => array(),
+        'module' => 'field_sql_storage',
+        'active' => '1',
+        'details' => array(
+          'sql' => array(
+            'FIELD_LOAD_CURRENT' => array(
+              'field_data_field_organisation' => array(
+                'tid' => 'field_organisation_tid',
+              ),
+            ),
+            'FIELD_LOAD_REVISION' => array(
+              'field_revision_field_organisation' => array(
+                'tid' => 'field_organisation_tid',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'foreign keys' => array(
+        'tid' => array(
+          'table' => 'taxonomy_term_data',
+          'columns' => array(
+            'tid' => 'tid',
+          ),
+        ),
+      ),
+      'indexes' => array(
+        'tid' => array(
+          0 => 'tid',
+        ),
+      ),
+      'field_name' => 'field_organisation',
+      'type' => 'taxonomy_term_reference',
+      'module' => 'taxonomy',
+      'active' => '1',
+      'locked' => '0',
+      'cardinality' => '2',
+      'deleted' => '0',
+      'columns' => array(
+        'tid' => array(
+          'type' => 'int',
+          'unsigned' => TRUE,
+          'not null' => FALSE,
+        ),
+      ),
+      'bundles' => array(
         'user' => array(
           0 => 'user',
         ),
@@ -730,7 +792,7 @@ $data = array(
       0 => array(
         'label' => 'Bio',
         'widget' => array(
-          'weight' => '4',
+          'weight' => '6',
           'type' => 'text_textarea',
           'module' => 'text',
           'active' => 1,
@@ -834,7 +896,7 @@ $data = array(
       0 => array(
         'label' => 'Google+ URL',
         'widget' => array(
-          'weight' => '7',
+          'weight' => '9',
           'type' => 'advanced_link',
           'module' => 'advanced_link',
           'active' => 1,
@@ -871,7 +933,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '6',
+            'weight' => '5',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -889,7 +951,7 @@ $data = array(
       0 => array(
         'label' => 'Linkedin URL',
         'widget' => array(
-          'weight' => '9',
+          'weight' => '11',
           'type' => 'advanced_link',
           'module' => 'advanced_link',
           'active' => 1,
@@ -926,7 +988,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '9',
+            'weight' => '7',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -940,11 +1002,41 @@ $data = array(
         'deleted' => '0',
       ),
     ),
+    'field_organisation' => array(
+      0 => array(
+        'label' => 'Organisation',
+        'widget' => array(
+          'weight' => '3',
+          'type' => 'options_select',
+          'module' => 'options',
+          'active' => 1,
+          'settings' => array(),
+        ),
+        'settings' => array(
+          'user_register_form' => 1,
+        ),
+        'display' => array(
+          'default' => array(
+            'label' => 'hidden',
+            'type' => 'hidden',
+            'weight' => '12',
+            'settings' => array(),
+          ),
+        ),
+        'required' => 1,
+        'description' => 'Zugehörigkeit innerhalb Organisation (Teams)',
+        'default_value' => NULL,
+        'field_name' => 'field_organisation',
+        'entity_type' => 'user',
+        'bundle' => 'user',
+        'deleted' => '0',
+      ),
+    ),
     'field_phone' => array(
       0 => array(
         'label' => 'Phone',
         'widget' => array(
-          'weight' => '5',
+          'weight' => '7',
           'type' => 'text_textfield',
           'module' => 'text',
           'active' => 1,
@@ -996,7 +1088,7 @@ $data = array(
       0 => array(
         'label' => 'Place',
         'widget' => array(
-          'weight' => '6',
+          'weight' => '8',
           'type' => 'text_textfield',
           'module' => 'text',
           'active' => 1,
@@ -1030,7 +1122,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'text_default',
-            'weight' => '5',
+            'weight' => '4',
             'settings' => array(),
             'module' => 'text',
           ),
@@ -1048,7 +1140,7 @@ $data = array(
       0 => array(
         'label' => 'Position/Function',
         'widget' => array(
-          'weight' => '3',
+          'weight' => '5',
           'type' => 'text_textfield',
           'module' => 'text',
           'active' => 1,
@@ -1100,7 +1192,7 @@ $data = array(
       0 => array(
         'label' => 'Segments',
         'widget' => array(
-          'weight' => '11',
+          'weight' => '13',
           'type' => 'options_buttons',
           'module' => 'options',
           'active' => 1,
@@ -1130,7 +1222,7 @@ $data = array(
       0 => array(
         'label' => 'Twitter URL',
         'widget' => array(
-          'weight' => '8',
+          'weight' => '10',
           'type' => 'advanced_link',
           'module' => 'advanced_link',
           'active' => 1,
@@ -1167,7 +1259,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '8',
+            'weight' => '6',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -1185,7 +1277,7 @@ $data = array(
       0 => array(
         'label' => 'Xing URL',
         'widget' => array(
-          'weight' => '10',
+          'weight' => '12',
           'type' => 'advanced_link',
           'module' => 'advanced_link',
           'active' => 1,
@@ -1222,7 +1314,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '10',
+            'weight' => '8',
             'settings' => array(),
             'module' => 'link',
           ),

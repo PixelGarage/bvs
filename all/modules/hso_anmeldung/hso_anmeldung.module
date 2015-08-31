@@ -119,17 +119,24 @@ function _hso_redirect_salesfunnel_call($times_int_id) {
  */
 function _hso_get_graduations_callback($segment_tid) {
   $query = new EntityFieldQuery();
-  $query->entityCondition('entity_type', 'taxonomy_term')
-        ->entityCondition('bundle', 'menugroup')
-        ->fieldCondition('field_segments', 'tid', $segment_tid);
+  $query->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', 'course')
+    ->propertyCondition('status', 1)
+    ->fieldCondition('field_segment', 'tid', $segment_tid);
   $result = $query->execute();
   $options = '<option value="-1" selected="selected">' . t('- Wähle einen Abschluss -') . "</option>\n";
-  if (isset($result['taxonomy_term'])) {
-    $tids = array_keys($result['taxonomy_term']);
-    $terms = taxonomy_term_load_multiple($tids);
+  if (isset($result['node'])) {
+    $nids = array_keys($result['node']);
+    $courses = node_load_multiple($nids);
 
-    foreach ($terms as $term) {
-      $options .= '<option value="' . check_plain($term->tid) . '"">' . check_plain($term->name) . "</option>\n";
+    $tids = array();
+    foreach ($courses as $course) {
+      $tids[$course->field_fachgebiet[LANGUAGE_NONE][0]['tid']] = $course->field_fachgebiet[LANGUAGE_NONE][0]['tid'];
+    }
+    $graduations = taxonomy_term_load_multiple($tids);
+
+    foreach ($graduations as $graduation) {
+      $options .= '<option value="' . check_plain($graduation->tid) . '"">' . check_plain($graduation->name) . "</option>\n";
     }
   }
   // output select options
