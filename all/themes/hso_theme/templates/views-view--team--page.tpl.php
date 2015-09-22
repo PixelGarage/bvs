@@ -30,7 +30,7 @@
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php print render($title_suffix); ?>
-  <?php if ($view->current_display != 'page'): ?>
+  <?php if ($view->current_display == 'page_1'): ?>
   	<div class="view-header">
 		  <a href="<?php print url(arg(0)); ?>" class="first">Alle</a>
 		  <?php foreach (range('A', 'Z') as $letter): ?>

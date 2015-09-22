@@ -22,8 +22,6 @@
   <?php if ($title === 'Höhere Fachschule'): ?>
     <li class="nolink-main clearfix"><?php print "Lehrgänge"; ?></li>
     <li class="nolink clearfix"><?php print $title; ?></li>
-  <?php elseif ($title === 'Höhere Fachschule' || $title === 'Fachhochschule'): ?>
-    <li class="nolink-main clearfix"><?php print $title; ?></li>
   <?php else: ?>
     <li class="nolink clearfix"><?php print $title; ?></li>
   <?php endif; ?>

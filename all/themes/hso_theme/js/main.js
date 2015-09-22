@@ -131,6 +131,12 @@ if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i))
                 // clone menu block for reset on mouseleave event
                 var menuBlockClone;
 
+                // language menu has no dropdown, open link in new tab
+                if ($(this).hasClass('menu-mlid-3216')) {
+                    $(this).find('>a').attr('target', '_blank');
+                    return;
+                }
+
                 // bind top menus to mouseenter and mouseleave events
                 $(this).mouseenter(function(){
                     var menu = $(this);
@@ -154,8 +160,9 @@ if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i))
                     });
 
                     // columns are reordered and height calculated, set "touch_hover"
+                    var menuBlockHeight = Math.min(_h, $(window).height() - menu.offset().top - 100);
                     _columns.height(_h);
-                    menuBlock.css({"margin-top": 0, "display": "none"});
+                    menuBlock.css({"margin-top": 0, "display": "none", "overflow-y": "auto", "height": menuBlockHeight});
                     menu.addClass("touch_hover");
 
                     setTimeout(function(){
