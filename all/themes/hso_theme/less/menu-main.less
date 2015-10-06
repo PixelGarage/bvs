@@ -16,6 +16,8 @@
 @special-column-width: 232px;
 @special-column-width-wb: @special-column-width+1;
 
+@ie-scrollbar-width: 17px;
+
 
 // Mixins
 // -------------------------
@@ -45,6 +47,7 @@
     /* Submenu position under top menu */
     left: @left-shift;
     background: @seg-color;
+    width: 2 * (@wColumn + 1);
 
     li,
     li.double .view-content,
@@ -62,7 +65,10 @@
       /* aligns top of sub-columns */
       padding-top: 33px;
     }
-
+    li.last {
+      /* IE specific: subtract scrollbar width */
+      width: (@wColumn - @ie-scrollbar-width);
+    }
   }
 
 }
@@ -330,29 +336,28 @@
   }
 
   /* define normal sized menus width and position */
-  #block-menu-block-1 ul li ul.menu {
-    width: 3 * @column-width-with-border;   /* 3 columns */
-  }
-  #block-menu-block-1 ul li ul.menu.double {
-    width: 4 * @column-width-with-border !important;    /* 4 columns */
-  }
   #block-menu-block-1 li.double {
     width: 2 * @column-width-with-border !important;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0;   /* left-shift first menu, so that menu starts with second top menu  */
+    width: 3 * @column-width-with-border;   /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
     left: 0;   /* left-shift first double menu, so that menu starts with first top menu  */
+    width: 4 * @column-width-with-border !important;    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
     left: 0;   /* left-shift second menu, so that menu starts with second top menu  */
+    width: 3 * @column-width-with-border;   /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
     left: 0;   /* left-shift second double menu, so that menu starts with second top menu  */
+    width: 4 * @column-width-with-border !important;    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0;   /* left-shift third menu, so that menu starts with second top menu  */
+    width: 3 * @column-width-with-border;   /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
     left: 0;   /* left-shift third double menu, so that menu starts with first top menu  */
@@ -363,15 +368,19 @@
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -@column-width-with-border;   /* left-shift forth menu, so that menu ends with last top menu  */
+    width: 3 * @column-width-with-border;   /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
     left: -2 * @column-width-with-border;   /* left-shift forth double menu, so that menu ends with last top menu  */
+    width: 4 * @column-width-with-border !important;    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
     left: -2 * @column-width-with-border;   /* left-shift last menu, so that menu ends with last top menu  */
+    width: 3 * @column-width-with-border;   /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
     left: -3 * @column-width-with-border;   /* left-shift last double menu, so that menu ends with last top menu  */
+    width: 4 * @column-width-with-border !important;    /* 4 columns */
   }
 
   /* display first menu column (output from view) in normal sized menus */

@@ -1,5 +1,5 @@
 <?php
-$export_time = 1441021227;
+$export_time = 1444127806;
 $data = array(
   'bundles' => array(
     'user' => NULL,
@@ -293,70 +293,6 @@ $data = array(
         ),
       ),
     ),
-    'field_organisation' => array(
-      'translatable' => '0',
-      'entity_types' => array(),
-      'settings' => array(
-        'allowed_values' => array(
-          0 => array(
-            'vocabulary' => 'organisation',
-            'parent' => '0',
-          ),
-        ),
-      ),
-      'storage' => array(
-        'type' => 'field_sql_storage',
-        'settings' => array(),
-        'module' => 'field_sql_storage',
-        'active' => '1',
-        'details' => array(
-          'sql' => array(
-            'FIELD_LOAD_CURRENT' => array(
-              'field_data_field_organisation' => array(
-                'tid' => 'field_organisation_tid',
-              ),
-            ),
-            'FIELD_LOAD_REVISION' => array(
-              'field_revision_field_organisation' => array(
-                'tid' => 'field_organisation_tid',
-              ),
-            ),
-          ),
-        ),
-      ),
-      'foreign keys' => array(
-        'tid' => array(
-          'table' => 'taxonomy_term_data',
-          'columns' => array(
-            'tid' => 'tid',
-          ),
-        ),
-      ),
-      'indexes' => array(
-        'tid' => array(
-          0 => 'tid',
-        ),
-      ),
-      'field_name' => 'field_organisation',
-      'type' => 'taxonomy_term_reference',
-      'module' => 'taxonomy',
-      'active' => '1',
-      'locked' => '0',
-      'cardinality' => '2',
-      'deleted' => '0',
-      'columns' => array(
-        'tid' => array(
-          'type' => 'int',
-          'unsigned' => TRUE,
-          'not null' => FALSE,
-        ),
-      ),
-      'bundles' => array(
-        'user' => array(
-          0 => 'user',
-        ),
-      ),
-    ),
     'field_phone' => array(
       'translatable' => '0',
       'entity_types' => array(),
@@ -628,6 +564,75 @@ $data = array(
         ),
       ),
     ),
+    'field_title' => array(
+      'translatable' => '0',
+      'entity_types' => array(),
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'storage' => array(
+        'type' => 'field_sql_storage',
+        'settings' => array(),
+        'module' => 'field_sql_storage',
+        'active' => '1',
+        'details' => array(
+          'sql' => array(
+            'FIELD_LOAD_CURRENT' => array(
+              'field_data_field_title' => array(
+                'value' => 'field_title_value',
+                'format' => 'field_title_format',
+              ),
+            ),
+            'FIELD_LOAD_REVISION' => array(
+              'field_revision_field_title' => array(
+                'value' => 'field_title_value',
+                'format' => 'field_title_format',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'foreign keys' => array(
+        'format' => array(
+          'table' => 'filter_format',
+          'columns' => array(
+            'format' => 'format',
+          ),
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'field_name' => 'field_title',
+      'type' => 'text',
+      'module' => 'text',
+      'active' => '1',
+      'locked' => '0',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'columns' => array(
+        'value' => array(
+          'type' => 'varchar',
+          'length' => '255',
+          'not null' => FALSE,
+        ),
+        'format' => array(
+          'type' => 'varchar',
+          'length' => 255,
+          'not null' => FALSE,
+        ),
+      ),
+      'bundles' => array(
+        'field_collection_item' => array(
+          0 => 'field_teaser_tabs',
+        ),
+        'user' => array(
+          0 => 'user',
+        ),
+      ),
+    ),
     'field_twitter_url' => array(
       'translatable' => '0',
       'entity_types' => array(),
@@ -844,7 +849,7 @@ $data = array(
       0 => array(
         'label' => 'Full Name',
         'widget' => array(
-          'weight' => '2',
+          'weight' => '3',
           'type' => 'text_textfield',
           'module' => 'text',
           'active' => 1,
@@ -933,7 +938,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '5',
+            'weight' => '6',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -988,7 +993,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '7',
+            'weight' => '9',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -997,36 +1002,6 @@ $data = array(
         'description' => '',
         'default_value' => NULL,
         'field_name' => 'field_linkedin_url',
-        'entity_type' => 'user',
-        'bundle' => 'user',
-        'deleted' => '0',
-      ),
-    ),
-    'field_organisation' => array(
-      0 => array(
-        'label' => 'Organisation',
-        'widget' => array(
-          'weight' => '3',
-          'type' => 'options_select',
-          'module' => 'options',
-          'active' => 1,
-          'settings' => array(),
-        ),
-        'settings' => array(
-          'user_register_form' => 1,
-        ),
-        'display' => array(
-          'default' => array(
-            'label' => 'hidden',
-            'type' => 'hidden',
-            'weight' => '12',
-            'settings' => array(),
-          ),
-        ),
-        'required' => 1,
-        'description' => 'Zugehörigkeit innerhalb Organisation (Teams)',
-        'default_value' => NULL,
-        'field_name' => 'field_organisation',
         'entity_type' => 'user',
         'bundle' => 'user',
         'deleted' => '0',
@@ -1122,7 +1097,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'text_default',
-            'weight' => '4',
+            'weight' => '5',
             'settings' => array(),
             'module' => 'text',
           ),
@@ -1218,6 +1193,58 @@ $data = array(
         'deleted' => '0',
       ),
     ),
+    'field_title' => array(
+      0 => array(
+        'label' => 'Title',
+        'widget' => array(
+          'weight' => '2',
+          'type' => 'text_textfield',
+          'module' => 'text',
+          'active' => 1,
+          'settings' => array(
+            'size' => '60',
+          ),
+        ),
+        'settings' => array(
+          'text_processing' => '0',
+          'user_register_form' => 0,
+          'better_formats' => array(
+            'allowed_formats_toggle' => 0,
+            'allowed_formats' => array(
+              'html' => 'html',
+              'plain_text' => 'plain_text',
+            ),
+            'default_order_toggle' => 0,
+            'default_order_wrapper' => array(
+              'formats' => array(
+                'html' => array(
+                  'weight' => '0',
+                ),
+                'plain_text' => array(
+                  'weight' => '10',
+                ),
+              ),
+            ),
+          ),
+        ),
+        'display' => array(
+          'default' => array(
+            'label' => 'above',
+            'type' => 'text_default',
+            'settings' => array(),
+            'module' => 'text',
+            'weight' => 12,
+          ),
+        ),
+        'required' => 0,
+        'description' => 'Add a title, e.g. Dr. or Prof.',
+        'default_value' => NULL,
+        'field_name' => 'field_title',
+        'entity_type' => 'user',
+        'bundle' => 'user',
+        'deleted' => '0',
+      ),
+    ),
     'field_twitter_url' => array(
       0 => array(
         'label' => 'Twitter URL',
@@ -1259,7 +1286,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '6',
+            'weight' => '8',
             'settings' => array(),
             'module' => 'link',
           ),
@@ -1314,7 +1341,7 @@ $data = array(
           'default' => array(
             'label' => 'hidden',
             'type' => 'link_default',
-            'weight' => '8',
+            'weight' => '10',
             'settings' => array(),
             'module' => 'link',
           ),

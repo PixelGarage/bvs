@@ -635,6 +635,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: 0px;
   background: #199cda;
+  width: 376px;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content,
@@ -652,6 +653,10 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
   /* aligns top of sub-columns */
   padding-top: 33px;
+}
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.last {
+  /* IE specific: subtract scrollbar width */
+  width: 170px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
@@ -676,6 +681,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: 0px;
   background: #7db956;
+  width: 376px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content,
@@ -693,6 +699,10 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
   /* aligns top of sub-columns */
   padding-top: 33px;
+}
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.last {
+  /* IE specific: subtract scrollbar width */
+  width: 170px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
@@ -717,6 +727,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: 0px;
   background: #003b79;
+  width: 466px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content,
@@ -734,6 +745,10 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right {
   /* aligns top of sub-columns */
   padding-top: 33px;
+}
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.last {
+  /* IE specific: subtract scrollbar width */
+  width: 215px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 {
   /* Executive top-menu background */
@@ -758,6 +773,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: -252px;
   background: #b1a896;
+  width: 376px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content,
@@ -775,6 +791,10 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
   /* aligns top of sub-columns */
   padding-top: 33px;
+}
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.last {
+  /* IE specific: subtract scrollbar width */
+  width: 170px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
@@ -799,6 +819,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: -252px;
   background: #e42618;
+  width: 376px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content,
@@ -816,6 +837,10 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
   /* aligns top of sub-columns */
   padding-top: 33px;
+}
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.last {
+  /* IE specific: subtract scrollbar width */
+  width: 170px;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -895,36 +920,38 @@ body.langcollege_section #zone-menu-wrapper {
     background-position: 160px 19px;
   }
   /* define normal sized menus width and position */
-  #block-menu-block-1 ul li ul.menu {
-    width: 564px;
-    /* 3 columns */
-  }
-  #block-menu-block-1 ul li ul.menu.double {
-    width: 752px !important;
-    /* 4 columns */
-  }
   #block-menu-block-1 li.double {
     width: 376px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0;
     /* left-shift first menu, so that menu starts with second top menu  */
+    width: 564px;
+    /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
     left: 0;
     /* left-shift first double menu, so that menu starts with first top menu  */
+    width: 752px !important;
+    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
     left: 0;
     /* left-shift second menu, so that menu starts with second top menu  */
+    width: 564px;
+    /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
     left: 0;
     /* left-shift second double menu, so that menu starts with second top menu  */
+    width: 752px !important;
+    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0;
     /* left-shift third menu, so that menu starts with second top menu  */
+    width: 564px;
+    /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
     left: 0;
@@ -938,18 +965,26 @@ body.langcollege_section #zone-menu-wrapper {
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
     left: -188px;
     /* left-shift forth menu, so that menu ends with last top menu  */
+    width: 564px;
+    /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
     left: -376px;
     /* left-shift forth double menu, so that menu ends with last top menu  */
+    width: 752px !important;
+    /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
     left: -376px;
     /* left-shift last menu, so that menu ends with last top menu  */
+    width: 564px;
+    /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
     left: -564px;
     /* left-shift last double menu, so that menu ends with last top menu  */
+    width: 752px !important;
+    /* 4 columns */
   }
   /* display first menu column (output from view) in normal sized menus */
   #block-menu-block-1 ul li ul.menu li.menu-views {
