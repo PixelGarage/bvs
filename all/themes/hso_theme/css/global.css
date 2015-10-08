@@ -1385,6 +1385,7 @@ body.node-type-news .node.node-news .with_picture .block-hso-mods ul li a:hover 
   float: left;
 }
 .node.node-news.node-teaser .with_picture .content .center_icons {
+  display: none;
   margin-top: 10px;
 }
 .node.node-news.node-teaser .with_picture .content .center_icons div {
