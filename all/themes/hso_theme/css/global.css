@@ -3588,6 +3588,7 @@ body.responsive-layout-mobile.front #block-block-2 {
  *  Fachwissen block Component
  * --------------------------------------------------*/
 #block-views-fachwissen-block {
+  display: none;
   margin-bottom: 20px;
 }
 #block-views-fachwissen-block h2.block-title {
