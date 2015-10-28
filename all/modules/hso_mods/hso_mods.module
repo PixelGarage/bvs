@@ -182,9 +182,9 @@ function theme_hso_mods_formatter_hso_mods_date_vom_bis($element) {
   $has_end_date = ($date_start[0] != $date_end[0]);
 
   if ($has_end_date) {
-    $string = '<strong>' . t('Since') . '</strong> ';
+    $string = '<strong>' . t('Vom') . '</strong> ';
   } else {
-    $string = '<strong>' . t('On') . '</strong> ';
+    $string = '<strong>' . t('Am') . '</strong> ';
   }
 	if (date('H:i', $from_date) == '00:00') {
 		$string .= date('d.m.Y', $from_date);
@@ -192,7 +192,7 @@ function theme_hso_mods_formatter_hso_mods_date_vom_bis($element) {
 		$string .= date('d.m.Y, H:i', $from_date);
 	}
 	if ($has_end_date) {
-		$string .= ' <strong>' . t('Until') . '</strong> ' . date('d.m.Y', strtotime($element['element']['value2']));
+		$string .= ' <strong>' . t('Bis') . '</strong> ' . date('d.m.Y', strtotime($element['element']['value2']));
 	}
   return $string;
 }

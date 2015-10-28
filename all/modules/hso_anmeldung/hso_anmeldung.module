@@ -531,8 +531,8 @@ function hso_anmeldung_form_alter(&$form, &$form_state, $form_id) {
 			}
 		}
 
-	} else if ($form_id == 'webform_client_form_264' || $form_id == 'webform_client_form_475' || $form_id == 'webform_client_form_476') {
-		// extend all anmeldungs-forms (default, european, ecdl),
+	} else if ($form_id == 'webform_client_form_264' || $form_id == 'webform_client_form_7621' || $form_id == 'webform_client_form_476') {
+		// extend all anmeldungs-forms (default, kv, ecdl),
 		// but only if they are shown (url = node/nid/anmeldung)
     if (arg(0) == 'node' && is_numeric(arg(1)) && arg(2) == 'anmeldung') {
       // Anmeldung called from course time
@@ -577,9 +577,9 @@ function hso_anmeldung_form_alter(&$form, &$form_state, $form_id) {
           $text .= $course_time_node->field_additional_info_price[LANGUAGE_NONE][0]['value'];
         }
         $form['submitted']['markup']['#markup'] = $text;
-        $text = '* <strong>Ich habe die ' .
-          l('Allgemeinen Geschäftsbedingungen sowie die Preisliste (AGB / Preislisten)', 'node/' . $agb_nid, array('html' => TRUE, 'attributes' => array('target' => '_blank'))) .
-          ' gelesen und bin damit einverstanden.</strong><br />';
+        $text = '* <strong>Die ' .
+          l('Allgemeinen Geschäftsbedingungen', 'node/' . $agb_nid, array('html' => TRUE, 'attributes' => array('target' => '_blank'))) .
+          ' habe ich zur Kenntnis genommen und anerkenne diese.</strong><br />';
 			}
 
 		}
@@ -623,7 +623,7 @@ function hso_anmeldung_webform_submission_render_alter(&$renderable) {
   $submission = $renderable['#submission'];
 
   // only anmeldungs forms (default, european, ecdl)
-  if (in_array($submission->nid, array(264, 475, 476))) {
+  if (in_array($submission->nid, array(264, 7621, 476))) {
     // get course time nid from form, if any
     $course_time_nid = FALSE;
     $webform_components = $renderable['#node']->webform['components'];
@@ -687,7 +687,7 @@ function hso_anmeldung_form_webform_email_edit_form_submit($form, $form_state) {
  * Extends the webform component form with HSO extra fields.
  */
 function hso_anmeldung_form_webform_component_edit_form_alter(&$form, &$form_state) {
-  if ($form['nid']['#value'] == 264 || $form['nid']['#value'] == 475 || $form['nid']['#value'] == 476) {
+  if ($form['nid']['#value'] == 264 || $form['nid']['#value'] == 7621 || $form['nid']['#value'] == 476) {
     array_unshift($form['#submit'], 'hso_anmeldung_component_edit_submit');
     $form['hso'] = array(
       '#type' => 'fieldset',

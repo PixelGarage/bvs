@@ -2,6 +2,8 @@
 	$account = $variables['elements']['#account'];
   $title = !empty($account->field_title) && !empty($account->field_title[LANGUAGE_NONE][0]['value']) ?
     $account->field_title[LANGUAGE_NONE][0]['value'] . ' ' : '';
+  $publish_email = !empty($account->field_email) && !empty($account->field_email[LANGUAGE_NONE][0]['email']) ?
+    $account->field_email[LANGUAGE_NONE][0]['email'] : '';
 ?>
 <div class="user_profile clearfix"<?php print $attributes; ?>>
 	<?php print render($user_profile['user_picture']); ?>
@@ -17,15 +19,19 @@
     <?php print render($user_profile['field_title']); ?>
 		<?php print render($user_profile['field_full_name']); ?>
 	<?php endif; ?>
+
 	<?php print render($user_profile['field_position_function']); ?>
 	<?php print render($user_profile['field_bio']); ?>
+
 	<?php if (!in_array('dozent', $account->roles)): ?>
 		<?php print render($user_profile['field_phone']); ?>
-		<div class="field-email">
-			<?php print invisimail_encode_email($account->mail, 'js_entities', array('link' => true)); ?>
-		</div>
 	<?php else: ?>
 		<?php hide($user_profile['field_phone']); ?>
 	<?php endif; ?>
+
+  <div class="field-email">
+    <?php print invisimail_encode_email($publish_email, 'js_entities', array('link' => true)); ?>
+  </div>
+  <?php hide($user_profile['field_email']); ?>
   <?php print render($user_profile); ?>
 </div>
