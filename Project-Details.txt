@@ -2,7 +2,7 @@ Specific Project Details:
 
 Changes in Modules (Patches)
 ============================
-1)
+1) Field-collection module patch
 
 
 Locked Modules (no update)
