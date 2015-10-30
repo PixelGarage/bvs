@@ -28,9 +28,6 @@ if ($course_time_nid) {
     <li>Die <a target="_blank" href="<?php print $pdf_link; ?>">Reservationsbestätigung (PDF)</a> können Sie nun herunterladen</li>
     <li>Per E-Mail erhalten Sie dieselbe Reservationsbestätigung in einigen Minuten zugestellt</li>
   </ul>
-  <h2>Anmeldenummer</h2>
-  <p>Und dies ist Ihre Anmeldenummer: <b><?php echo str_pad($sid, 6, '0', STR_PAD_LEFT); ?></b><br />
-	  Halten Sie diese bei Anfragen jeweils bereit.</p>
 
   <h2>Weiteres Vorgehen</h2>
   <p>Wir bitten Sie, spätestens 2 Tage vor der Prüfung vorbeizukommen und beim HSO Sekretariat für jedes 

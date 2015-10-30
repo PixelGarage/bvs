@@ -33,10 +33,6 @@ if ($course_time_nid) {
   <p>In der Eingangsbestätigung, die Sie von uns via E-Mail erhalten, finden Sie eine Anleitung für das weitere Vorgehen,
 		sowie eine Liste der Dokumente, die wir von Ihnen für eine endgültige Aufnahme benötigen.</p>
 
-  <h2>Anmeldenummer</h2>
-  <p>Und dies ist Ihre Anmeldenummer: <b><?php echo str_pad($sid, 6, '0', STR_PAD_LEFT); ?></b><br />
-	  Halten Sie diese bei Anfragen jeweils bereit.</p>
-
   <h2>Rückgängig machen</h2>
   <p>Wollen Sie Ihre Anmeldung rückgängig machen, nehmen Sie bitte telefonisch mit uns
   	Kontakt auf.</p>

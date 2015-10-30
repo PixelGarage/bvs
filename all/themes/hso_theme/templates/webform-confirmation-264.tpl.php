@@ -33,10 +33,6 @@ if ($course_time_nid) {
   <h2>Weiteres Vorgehen</h2>
   <p>Bitte retournieren Sie uns der Form halber den unterschrieben Ausbildungsvertrag in den nächsten Tagen per Post.</p>
 
-  <h2>Anmeldenummer</h2>
-  <p>Dies ist Ihre Anmeldenummer: <b><?php echo str_pad($sid, 6, '0', STR_PAD_LEFT); ?></b><br />
-	  Halten Sie diese bei Anfragen jeweils bereit.</p>
-
   <h2>Rückgängig machen</h2>
   <p>Wollen Sie Ihre Anmeldung rückgängig machen, nehmen Sie bitte telefonisch mit uns
   	Kontakt auf.</p>
