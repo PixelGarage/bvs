@@ -650,7 +650,8 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right a:hover {
   color: #0f5b7e;
 }
-#block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li .view-content-right,
+#block-menu-block-1 ul li.menu-mlid-986 ul.menu li .view-content-third {
   /* aligns top of sub-columns */
   padding-top: 33px;
 }
@@ -696,7 +697,8 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right a:hover {
   color: #4d7831;
 }
-#block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li .view-content-right,
+#block-menu-block-1 ul li.menu-mlid-987 ul.menu li .view-content-third {
   /* aligns top of sub-columns */
   padding-top: 33px;
 }
@@ -742,7 +744,8 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right a:hover {
   color: #0060c5;
 }
-#block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content-right {
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li .view-content-right,
+#block-menu-block-1 ul li.menu-mlid-988 ul.menu li .view-content-third {
   /* aligns top of sub-columns */
   padding-top: 33px;
 }
@@ -788,7 +791,8 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right a:hover {
   color: #645b4a;
 }
-#block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li .view-content-right,
+#block-menu-block-1 ul li.menu-mlid-989 ul.menu li .view-content-third {
   /* aligns top of sub-columns */
   padding-top: 33px;
 }
@@ -834,7 +838,8 @@ body.langcollege_section #zone-menu-wrapper {
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right a:hover {
   color: #f07b72;
 }
-#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li .view-content-right,
+#block-menu-block-1 ul li.menu-mlid-3216 ul.menu li .view-content-third {
   /* aligns top of sub-columns */
   padding-top: 33px;
 }
