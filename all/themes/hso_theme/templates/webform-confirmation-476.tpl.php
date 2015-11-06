@@ -30,7 +30,7 @@ if ($course_time_nid) {
   </ul>
 
   <h2>Weiteres Vorgehen</h2>
-  <p>Wir bitten Sie, spätestens 2 Tage vor der Prüfung vorbeizukommen und beim HSO Sekretariat für jedes 
+  <p>Wir bitten Sie, spätestens 2 Tage vor der Prüfung vorbeizukommen und beim BVS Sekretariat für jedes
   	angemeldete Modul einen "Prüfungsgutschein ECDL" zu lösen und auszufüllen. Dieser Gutschein ist Ihr 
   	Eintritts-Ticket für die Prüfung.</p>
 

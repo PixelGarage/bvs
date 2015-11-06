@@ -33,7 +33,7 @@
       $brochure = node_load($course->field_brochure[LANGUAGE_NONE][0]['target_id']);
       if ($brochure && !empty($brochure->field_file)) {
         $pdf = $brochure->field_file[LANGUAGE_NONE][0]['uri'];
-        hso_anmeldung_transfer_pdf($pdf, 'Kurs-Details.pdf', true);
+        hso_anmeldung_transfer_pdf($pdf, 'Kurs-Details.pdf', false);
       }
     }
   }

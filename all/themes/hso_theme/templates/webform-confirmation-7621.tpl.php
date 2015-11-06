@@ -31,7 +31,7 @@ if ($course_time_nid) {
   </ul>
 
   <h2>Weiteres Vorgehen</h2>
-  <p>Bitte retournieren Sie uns der Form halber den unterschrieben Ausbildungsvertrag in den nächsten Tagen per Post.</p>
+  <p>Bitte retournieren Sie uns der Form halber den unterschrieben Ausbildungsvertrag in den nächsten Tagen per Post/Fax oder E-Mail.</p>
 
   <h2>Rückgängig machen</h2>
   <p>Wollen Sie Ihre Anmeldung rückgängig machen, nehmen Sie bitte telefonisch mit uns
