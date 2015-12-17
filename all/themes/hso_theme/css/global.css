@@ -1028,17 +1028,17 @@ body.langcollege_section #zone-menu-wrapper {
   margin: 0;
   padding: 0;
   display: block;
-  margin-left: 65px;
-  margin-top: 150px;
+  margin-top: 30px;
   width: 420px;
   text-align: left;
 }
 .block-banners-block-1 .banner .views-field-field-banner-links ul li,
 .block-banners-block .banner .views-field-field-banner-links ul li {
-  display: inline;
+  display: block;
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
 }
 .block-banners-block-1 .banner .views-field-field-banner-links ul li a,
 .block-banners-block .banner .views-field-field-banner-links ul li a {
