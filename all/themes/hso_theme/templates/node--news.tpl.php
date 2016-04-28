@@ -36,8 +36,6 @@
 				<?php
 					$u = user_load($node->uid);
 					$name = empty($u->field_full_name) ? $name : $u->field_full_name[LANGUAGE_NONE][0]['value'];
-					print t('Submitted by !username on !datetime',
-					array('!username' => $name, '!datetime' => format_date($node->created, 'custom', 'j. F Y')));
 				?>
 			</div>
 		<?php endif; ?>
