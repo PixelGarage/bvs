@@ -41,13 +41,13 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) 
       }
     });
 
-    if ($('.block-banners-block, .block-banners-block-1').size()) {
-      var _current = $('.block-banners-block, .block-banners-block-1').find('.views-row:first .banner');
+    if ($('#block-views-banners-block, #block-views-banners-block-1').size()) {
+      var _current = $('#block-views-banners-block, #block-views-banners-block-1').find('.views-row:first .banner');
       $('#zone-menu-wrapper').append('<div id="main_top_banners" style="background-image:url(' + _current.data('url') + ');">' +
         '<div class="mask first"><span class="triangle" /></div>' +
         '<div class="mask last"><span class="triangle" /></div>' +
         '</div>');
-      $('.block-banners-block, .block-banners-block-1').find('.view').slides({
+      $('#block-views-banners-block, #block-views-banners-block-1').find('.view').slides({
         next: 'banner_next',
         prev: 'banner_prev',
         paginationClass: 'banner_pagination',
@@ -56,7 +56,7 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) 
         generateNextPrev: true,
         container: 'view-content',
         animationComplete: function (current) {
-          var _current = $('.block-banners-block, .block-banners-block-1').find('.views-row:eq(' + (current - 1) + ') .banner');
+          var _current = $('#block-views-banners-block, #block-views-banners-block-1').find('.views-row:eq(' + (current - 1) + ') .banner');
           $('#main_top_banners').css({backgroundImage: 'url(' + _current.data('url') + ')'});
         }
       });
