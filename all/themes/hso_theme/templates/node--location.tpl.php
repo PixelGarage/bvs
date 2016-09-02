@@ -1,3 +1,7 @@
+<?php
+$attributes = str_replace('class="', 'class="clearfix ', $attributes);
+?>
+
 <article<?php print $attributes; ?>>
 	<div class="picture_address clearfix">
 		<?php print render($content['field_picture']); ?>
