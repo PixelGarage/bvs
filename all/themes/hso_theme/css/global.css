@@ -11,7 +11,7 @@ html.js #block-menu-block-1 div.contextual-links-wrapper {
 body {
   font-family: 'Soho Gothic W01 Light', sans-serif;
   font-size: 15px;
-  color: #000;
+  color: #000000;
 }
 body.page-blog h1#page-title,
 body.page-taxonomy-term h1#page-title {
@@ -34,22 +34,22 @@ body.responsive-layout-narrow .container-12 .grid-8#region-preface-first {
 }
 #page {
   min-width: 640px;
-  border-top: 4px solid #7DB956;
+  border-top: 4px solid #7db956;
 }
 body.kvcollege_section #page {
-  border-top-color: #199CDA;
+  border-top-color: #199cda;
 }
 body.hscollege_section #page {
-  border-top-color: #7DB956;
+  border-top-color: #7db956;
 }
 body.kscollege_section #page {
-  border-top-color: #003B79;
+  border-top-color: #003b79;
 }
 body.excollege_section #page {
   border-top-color: #b1a896;
 }
 body.langcollege_section #page {
-  border-top-color: #E42618;
+  border-top-color: #e42618;
 }
 #section-content {
   position: relative;
@@ -260,7 +260,7 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
  *  Branding component
  * --------------------------------------------------*/
 #zone-branding-wrapper {
-  background-color: #D3E5BF;
+  background-color: #d3e5bf;
 }
 #region-branding {
   padding-top: 25px;
@@ -354,7 +354,7 @@ body.excollege_section .node-segment-sidebar-block .content a:hover {
 #block-menu-block-4 ul li a.active,
 #block-menu-block-3 ul li a:hover,
 #block-menu-block-4 ul li a:hover {
-  color: #7DB956;
+  color: #7db956;
 }
 #block-menu-block-3 ul li.first a,
 #block-menu-block-4 ul li.first a {
@@ -442,8 +442,8 @@ body.responsive-layout-mobile #region-branding {
   left: -29px;
   border-left: 14px solid transparent;
   border-top: 15px solid transparent;
-  border-bottom: 15px solid #fff;
-  border-right: 15px solid #fff;
+  border-bottom: 15px solid #ffffff;
+  border-right: 15px solid #ffffff;
 }
 #main_top_banners .mask.first {
   right: auto;
@@ -454,51 +454,51 @@ body.responsive-layout-mobile #region-branding {
   left: auto;
   right: -30px;
   border-right: 16px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #ffffff;
 }
 /*
  *  Main-menu component
  * --------------------------------------------------*/
 #zone-menu-wrapper {
   position: relative;
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
 body.kvcollege_section #zone-menu-wrapper {
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
 body.hscollege_section #zone-menu-wrapper {
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
 body.kscollege_section #zone-menu-wrapper {
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
 body.excollege_section #zone-menu-wrapper {
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
 body.langcollege_section #zone-menu-wrapper {
-  background-image: -webkit-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: -o-linear-gradient(top, #D3E5BF 0%, #fff 100%);
-  background-image: linear-gradient(to bottom, #D3E5BF 0%, #fff 100%);
+  background-image: -webkit-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #d3e5bf 0%, #ffffff 100%);
+  background-image: linear-gradient(to bottom, #d3e5bf 0%, #ffffff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd3e5bf', endColorstr='#ffffffff', GradientType=0);
 }
@@ -536,7 +536,7 @@ body.langcollege_section #zone-menu-wrapper {
   position: relative;
   float: left;
   /* small column width */
-  width: 124px;
+  width: 130px;
 }
 #block-menu-block-1 ul li.nolink-main {
   /* main no-links on all levels */
@@ -570,7 +570,7 @@ body.langcollege_section #zone-menu-wrapper {
   line-height: 40px;
   height: 40px;
   padding: 0 40px 0 20px;
-  background: url(../images/menu_arrow.png) no-repeat 100px 19px;
+  background: url(../images/menu_arrow.png) no-repeat 105px 19px;
 }
 #block-menu-block-1 ul li ul.menu {
   /* Menu block dropdown (invisible and animated when hovered) */
@@ -580,7 +580,7 @@ body.langcollege_section #zone-menu-wrapper {
   top: 40px;
   padding: 20px 0;
   /* 2 normal columns wide */
-  width: 376px;
+  width: 470px;
   z-index: 30;
 }
 #block-menu-block-1 ul li ul.menu li a {
@@ -609,41 +609,41 @@ body.langcollege_section #zone-menu-wrapper {
   display: block;
   position: static;
   /* normal column width with border*/
-  width: 188px;
+  width: 235px;
   padding: 0;
 }
 #block-menu-block-1 ul li.menu-mlid-986 {
   /* KV Kollege top-menu background (normal, hovered) */
 }
 #block-menu-block-1 ul li.menu-mlid-986 a {
-  background-color: #199CDA;
+  background-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a span.arrow {
-  border-top-color: #199CDA;
+  border-top-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-986:hover a {
-  background-color: #199CDA;
+  background-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-986:hover a span.arrow {
-  border-top-color: #199CDA;
+  border-top-color: #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
   /* Submenu position under top menu */
   left: 0px;
-  background: #199CDA;
-  width: 376px;
+  background: #199cda;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
-  border-right: 1px solid #199CDA;
+  width: 234px;
+  border-right: 1px solid #199cda;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content a:hover,
@@ -657,40 +657,40 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-987 a {
-  background-color: #7DB956;
+  background-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a span.arrow {
-  border-top-color: #7DB956;
+  border-top-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-987:hover a {
-  background-color: #7DB956;
+  background-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-987:hover a span.arrow {
-  border-top-color: #7DB956;
+  border-top-color: #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
   /* Submenu position under top menu */
-  left: 0px;
-  background: #7DB956;
-  width: 376px;
+  left: -130px;
+  background: #7db956;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
-  border-right: 1px solid #7DB956;
+  width: 234px;
+  border-right: 1px solid #7db956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content a:hover,
@@ -704,31 +704,31 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-988 a {
-  background-color: #003B79;
+  background-color: #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a span.arrow {
-  border-top-color: #003B79;
+  border-top-color: #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-988:hover a {
-  background-color: #003B79;
+  background-color: #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-988:hover a span.arrow {
-  border-top-color: #003B79;
+  border-top-color: #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
   /* Submenu position under top menu */
   left: 0px;
-  background: #003B79;
+  background: #003b79;
   width: 466px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li,
@@ -737,7 +737,7 @@ body.langcollege_section #zone-menu-wrapper {
   /* only used in @normal size */
   float: left;
   width: 232px;
-  border-right: 1px solid #003B79;
+  border-right: 1px solid #003b79;
 }
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-988 ul.menu li.double .view-content a:hover,
@@ -774,16 +774,16 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
   /* Submenu position under top menu */
-  left: -252px;
+  left: -340px;
   background: #b1a896;
-  width: 376px;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
+  width: 234px;
   border-right: 1px solid #b1a896;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
@@ -798,40 +798,40 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a {
-  background-color: #E42618;
+  background-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a span.arrow {
-  border-top-color: #E42618;
+  border-top-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a.active-trail,
 #block-menu-block-1 ul li.menu-mlid-3216.touch_hover a,
 #block-menu-block-1 ul li.menu-mlid-3216:hover a {
-  background-color: #E42618;
+  background-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 a.active-trail span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3216.touch_hover a span.arrow,
 #block-menu-block-1 ul li.menu-mlid-3216:hover a span.arrow {
-  border-top-color: #E42618;
+  border-top-color: #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
   /* Submenu position under top menu */
-  left: -252px;
-  background: #E42618;
-  width: 376px;
+  left: -340px;
+  background: #e42618;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
-  border-right: 1px solid #E42618;
+  width: 234px;
+  border-right: 1px solid #e42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content a:hover,
@@ -845,7 +845,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -886,28 +886,28 @@ body.langcollege_section #zone-menu-wrapper {
 }
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
   #block-menu-block-1 ul li {
-    width: 140px;
+    width: 173px;
     /* medium size top menu, all others have size @column-width */
   }
   /* place dropdown arrow for medium sized top menus */
   #block-menu-block-1 ul li a {
-    background-position: 115px 19px;
+    background-position: 140px 19px;
     font-size: 14px;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
-    left: 0px;
+    left: -297px;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -236px;
+    left: -297px;
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
-    left: -236px;
+    left: -297px;
     /* left-shift last two menus, so that menu ends with last top menu  */
   }
 }
@@ -916,46 +916,46 @@ body.langcollege_section #zone-menu-wrapper {
    *  Block Menu styling
    */
   #block-menu-block-1 ul li {
-    width: 188px;
+    width: 235px;
     /* width of 1 column */
   }
   /* Arrow of top menus */
   #block-menu-block-1 ul li a {
     font-size: 16px;
-    background-position: 160px 19px;
+    background-position: 195px 19px;
   }
   /* define normal sized menus width and position */
   #block-menu-block-1 li.double {
-    width: 376px !important;
+    width: 470px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0;
     /* left-shift first menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
     left: 0;
     /* left-shift first double menu, so that menu starts with first top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
-    left: 0;
+    left: -470px;
     /* left-shift second menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
-    left: 0;
+    left: -470px;
     /* left-shift second double menu, so that menu starts with second top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0;
     /* left-shift third menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
@@ -968,27 +968,27 @@ body.langcollege_section #zone-menu-wrapper {
     width: 466px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -188px;
+    left: -235px;
     /* left-shift forth menu, so that menu ends with last top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -376px;
+    left: -470px;
     /* left-shift forth double menu, so that menu ends with last top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
-    left: -376px;
+    left: -470px;
     /* left-shift last menu, so that menu ends with last top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
-    left: -564px;
+    left: -705px;
     /* left-shift last double menu, so that menu ends with last top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   /* display first menu column (output from view) in normal sized menus */
@@ -1051,7 +1051,7 @@ body.langcollege_section #zone-menu-wrapper {
   line-height: 32px;
   text-align: center;
   text-decoration: none;
-  background: #7DB956;
+  background: #7db956;
 }
 #block-views-banners-block-1 .banner_pagination,
 #block-views-banners-block .banner_pagination {
@@ -1084,7 +1084,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-views-banners-block-1 .banner_pagination li.page.current a,
 #block-views-banners-block .banner_pagination li.page.current a {
-  background: #7DB956;
+  background: #7db956;
 }
 #block-views-banners-block-1 .banner_pagination li.pager a.banner_prev,
 #block-views-banners-block .banner_pagination li.pager a.banner_prev,
@@ -1106,27 +1106,27 @@ body.langcollege_section #zone-menu-wrapper {
 }
 body.kvcollege_section #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kvcollege_section #block-views-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #199CDA;
+  background: #199cda;
 }
 body.kvcollege_section #block-views-banners-block-1 .banner_pagination li.page.current a,
 body.kvcollege_section #block-views-banners-block .banner_pagination li.page.current a {
-  background: #199CDA;
+  background: #199cda;
 }
 body.hscollege_section #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.hscollege_section #block-views-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #7DB956;
+  background: #7db956;
 }
 body.hscollege_section #block-views-banners-block-1 .banner_pagination li.page.current a,
 body.hscollege_section #block-views-banners-block .banner_pagination li.page.current a {
-  background: #7DB956;
+  background: #7db956;
 }
 body.kscollege_section #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.kscollege_section #block-views-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #003B79;
+  background: #003b79;
 }
 body.kscollege_section #block-views-banners-block-1 .banner_pagination li.page.current a,
 body.kscollege_section #block-views-banners-block .banner_pagination li.page.current a {
-  background: #003B79;
+  background: #003b79;
 }
 body.excollege_section #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.excollege_section #block-views-banners-block .banner .views-field-field-banner-links ul li a {
@@ -1138,11 +1138,11 @@ body.excollege_section #block-views-banners-block .banner_pagination li.page.cur
 }
 body.langcollege_section #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 body.langcollege_section #block-views-banners-block .banner .views-field-field-banner-links ul li a {
-  background: #E42618;
+  background: #e42618;
 }
 body.langcollege_section #block-views-banners-block-1 .banner_pagination li.page.current a,
 body.langcollege_section #block-views-banners-block .banner_pagination li.page.current a {
-  background: #E42618;
+  background: #e42618;
 }
 /*
  *  Course content type
@@ -1184,43 +1184,43 @@ body.node-type-course #region-sidebar-second {
   border-bottom: none;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock caption {
-  color: #199CDA;
+  color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #199CDA;
-  border-top-color: #199CDA;
+  border-bottom-color: #199cda;
+  border-top-color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #199CDA;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #199CDA;
+  border-bottom-color: #199cda;
 }
 body.hscollege_section .node.node-course table.aufeinenblock caption {
-  color: #7DB956;
+  color: #7db956;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #7DB956;
-  border-top-color: #7DB956;
+  border-bottom-color: #7db956;
+  border-top-color: #7db956;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #7DB956;
+  border-bottom-color: #7db956;
 }
 body.hscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #7DB956;
+  border-bottom-color: #7db956;
 }
 body.kscollege_section .node.node-course table.aufeinenblock caption {
-  color: #003B79;
+  color: #003b79;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #003B79;
-  border-top-color: #003B79;
+  border-bottom-color: #003b79;
+  border-top-color: #003b79;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #003B79;
+  border-bottom-color: #003b79;
 }
 body.kscollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #003B79;
+  border-bottom-color: #003b79;
 }
 body.excollege_section .node.node-course table.aufeinenblock caption {
   color: #b1a896;
@@ -1236,17 +1236,17 @@ body.excollege_section .node.node-course table.aufeinenblock tbody tr td {
   border-bottom-color: #b1a896;
 }
 body.langcollege_section .node.node-course table.aufeinenblock caption {
-  color: #E42618;
+  color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody {
-  border-bottom-color: #E42618;
-  border-top-color: #E42618;
+  border-bottom-color: #e42618;
+  border-top-color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr th {
-  border-bottom-color: #E42618;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .node.node-course table.aufeinenblock tbody tr td {
-  border-bottom-color: #E42618;
+  border-bottom-color: #e42618;
 }
 /*
  *  Witercho blog view, news content types
@@ -1566,22 +1566,22 @@ body.node-type-news .node.node-news .with_picture .block-hso-mods ul li a:hover 
   border: none;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-item a {
-  color: #199CDA;
+  color: #199cda;
 }
 body.kvcollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #199CDA;
+  background-color: #199cda;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #7DB956;
+  color: #7db956;
 }
 body.hscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #7DB956;
+  background-color: #7db956;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-item a {
-  color: #003B79;
+  color: #003b79;
 }
 body.kscollege_section .node-webform form.webform-client-form .form-actions .form-submit {
-  background-color: #003B79;
+  background-color: #003b79;
 }
 body.excollege_section .node-webform form.webform-client-form .form-item a {
   color: #b1a896;
@@ -1660,30 +1660,30 @@ body.excollege_section .node-webform form.webform-client-form .form-actions .for
   background-position: 0 -25px;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #199CDA;
-  background: #51baeb;
+  border-top-color: #199cda;
+  background: #99d6f3;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #199CDA;
+  color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #199CDA;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
-  background-color: #5cbeec;
+  background-color: #b0dff6;
 }
 body.kvcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper-links-witercho {
   background-image: url(../images/wo_befindest_kv.jpg);
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #7DB956;
+  border-top-color: #7db956;
   background: #d0e6c2;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #7DB956;
+  color: #7db956;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #7DB956;
+  border-bottom-color: #7db956;
 }
 body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
   background-color: #deedd4;
@@ -1692,14 +1692,14 @@ body.hscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
   background-image: url(../images/wo_befindest_hs.jpg);
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #003B79;
+  border-top-color: #003b79;
   background: #c5e2ff;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #003B79;
+  color: #003b79;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #003B79;
+  border-bottom-color: #003b79;
 }
 body.kscollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
   background-color: #f9fcff;
@@ -1724,14 +1724,14 @@ body.excollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .nod
   background-image: url(../images/wo_befindest_ex.jpg);
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links {
-  border-top-color: #E42618;
+  border-top-color: #e42618;
   background: #f5a6a0;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links h2.node-title {
-  color: #E42618;
+  color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a {
-  border-bottom-color: #E42618;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .node.wrapper_lehrgang_links .content table.lehrgang_links td a:hover {
   background-color: #f7bbb7;
@@ -1915,73 +1915,73 @@ body.langcollege_section .panel-pane.pane-segment-blocks .view-segment-blocks .n
   border-left: 2px solid #b2b2b2;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #199CDA;
-  border-bottom-color: #199CDA;
+  color: #199cda;
+  border-bottom-color: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.png) no-repeat 0 1px;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #199CDA;
+  background: none #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #199CDA;
+  color: #199cda;
   background-color: #fff;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #199CDA;
+  background: #199cda;
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/kv_teaser_tabs_pager.png);
 }
 body.kvcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #199CDA;
+  color: #199cda;
 }
 body.hscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #7DB956;
-  border-bottom-color: #7DB956;
+  color: #7db956;
+  border-bottom-color: #7db956;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.png) no-repeat 0 1px;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #7DB956;
+  background: none #7db956;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #7DB956;
+  color: #7db956;
   background-color: #fff;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #7DB956;
+  background: #7db956;
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/hs_teaser_tabs_pager.png);
 }
 body.hscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #7DB956;
+  color: #7db956;
 }
 body.kscollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #003B79;
-  border-bottom-color: #003B79;
+  color: #003b79;
+  border-bottom-color: #003b79;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.png) no-repeat 0 1px;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #003B79;
+  background: none #003b79;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #003B79;
+  color: #003b79;
   background-color: #fff;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #003B79;
+  background: #003b79;
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ks_teaser_tabs_pager.png);
 }
 body.kscollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #003B79;
+  color: #003b79;
 }
 body.excollege_section .panel-pane.pane-course-intros .pane-title {
   color: #b1a896;
@@ -2007,27 +2007,27 @@ body.excollege_section .panel-pane.pane-course-intros .view-course-intros .views
   color: #b1a896;
 }
 body.langcollege_section .panel-pane.pane-course-intros .pane-title {
-  color: #E42618;
-  border-bottom-color: #E42618;
+  color: #e42618;
+  border-bottom-color: #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #E42618;
+  background: none #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #E42618;
+  color: #e42618;
   background-color: #fff;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list ul.scrollable li .more_details a {
-  background: #E42618;
+  background: #e42618;
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a {
   background-image: url(../images/ex_teaser_tabs_pager.png);
 }
 body.langcollege_section .panel-pane.pane-course-intros .view-course-intros .views-field-field-teaser-tabs .item-list .teasertabs_links a:hover {
-  color: #E42618;
+  color: #e42618;
 }
 /*
  *  Team BVS with Group Images
@@ -2182,19 +2182,19 @@ body.langcollege_section .pane-team-panel-pane-1 .pane-content a.browse {
   text-decoration: none;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul {
-  background: #199CDA;
+  background: #199cda;
 }
 body.kvcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
   background: #178fc8;
 }
 body.hscollege_section #block-views-courses-block .view-content ul {
-  background: #7DB956;
+  background: #7db956;
 }
 body.hscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
   background: #75b54b;
 }
 body.kscollege_section #block-views-courses-block .view-content ul {
-  background: #003B79;
+  background: #003b79;
 }
 body.kscollege_section #block-views-courses-block .view-content ul li.views-row:hover {
   background: #00346a;
@@ -2206,7 +2206,7 @@ body.excollege_section #block-views-courses-block .view-content ul li.views-row:
   background: #aaa18d;
 }
 body.langcollege_section #block-views-courses-block .view-content ul {
-  background: #E42618;
+  background: #e42618;
 }
 body.langcollege_section #block-views-courses-block .view-content ul li.views-row:hover {
   background: #d62417;
@@ -2417,10 +2417,10 @@ body.kvcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/kv_bg_tabs.png) no-repeat 0 1px;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #199CDA;
+  background: none #199cda;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #199CDA;
+  color: #199cda;
   background-color: #fff;
 }
 body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2428,13 +2428,13 @@ body.kvcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #199CDA;
+  border-bottom: 4px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #199CDA;
+  border-bottom: 1px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #199CDA;
+  border-bottom: 4px solid #199cda;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #b0dff6;
@@ -2443,16 +2443,16 @@ body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #ddf2fb;
 }
 body.kvcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #199CDA;
+  background: #199cda;
 }
 body.hscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/hs_bg_tabs.png) no-repeat 0 1px;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #7DB956;
+  background: none #7db956;
 }
 body.hscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #7DB956;
+  color: #7db956;
   background-color: #fff;
 }
 body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2460,13 +2460,13 @@ body.hscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #7DB956;
+  border-bottom: 4px solid #7db956;
 }
 body.hscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #7DB956;
+  border-bottom: 1px solid #7db956;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #7DB956;
+  border-bottom: 4px solid #7db956;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #deedd4;
@@ -2475,16 +2475,16 @@ body.hscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #fafcf8;
 }
 body.hscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #7DB956;
+  background: #7db956;
 }
 body.kscollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ks_bg_tabs.png) no-repeat 0 1px;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #003B79;
+  background: none #003b79;
 }
 body.kscollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #003B79;
+  color: #003b79;
   background-color: #fff;
 }
 body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2492,13 +2492,13 @@ body.kscollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmel
   background-size: contain;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #003B79;
+  border-bottom: 4px solid #003b79;
 }
 body.kscollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #003B79;
+  border-bottom: 1px solid #003b79;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #003B79;
+  border-bottom: 4px solid #003b79;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #c5e2ff;
@@ -2507,7 +2507,7 @@ body.kscollege_section .view-course-tabs #startdaten .view-course-times table tb
   background: #f9fcff;
 }
 body.kscollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #003B79;
+  background: #003b79;
 }
 body.excollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/ex_bg_tabs.png) no-repeat 0 1px;
@@ -2545,10 +2545,10 @@ body.langcollege_section .view-course-tabs .ui-tabs {
   background: transparent url(../images/lang_bg_tabs.png) no-repeat 0 1px;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li {
-  background: none #E42618;
+  background: none #e42618;
 }
 body.langcollege_section .view-course-tabs .ui-tabs .tab_scroll .ui-tabs-nav li.ui-tabs-selected a {
-  color: #E42618;
+  color: #e42618;
   background-color: #fff;
 }
 body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anmelden_button {
@@ -2556,13 +2556,13 @@ body.langcollege_section .view-course-tabs .ui-tabs-panel .anmelden_wrapper .anm
   background-size: contain;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr th {
-  border-bottom: 4px solid #E42618;
+  border-bottom: 4px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #programm table.lektionplan tr td {
-  border-bottom: 1px solid #E42618;
+  border-bottom: 1px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table thead th {
-  border-bottom: 4px solid #E42618;
+  border-bottom: 4px solid #e42618;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr.odd {
   background: #ffffff;
@@ -2571,7 +2571,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   background: #ffffff;
 }
 body.langcollege_section .view-course-tabs #startdaten .view-course-times table tbody tr .views-field-nothing a {
-  background: #E42618;
+  background: #e42618;
 }
 /*
  *  HSO pages tabs (block-5)
@@ -2599,7 +2599,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   -webkit-border-top-right-radius: 4px;
   border-top-right-radius: 4px;
   border: 1px solid #d3d2ce;
-  background: #7DB956;
+  background: #7db956;
 }
 #block-menu-block-5 ul.menu li a {
   display: block;
@@ -2617,7 +2617,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
 }
 #block-menu-block-5 ul.menu li:hover a,
 #block-menu-block-5 ul.menu li.active a {
-  color: #7DB956;
+  color: #7db956;
 }
 #block-menu-block-5 ul.menu li.menu-mlid-1193 a,
 #block-menu-block-5 ul.menu li.menu-mlid-1195 a,
@@ -2717,7 +2717,7 @@ body.langcollege_section .view-course-tabs #startdaten .view-course-times table 
   margin-bottom: 20px;
   font-size: 14px;
   color: #fff;
-  background: #7DB956;
+  background: #7db956;
 }
 .pane-blog-panel-pane-2 .view-blog .node.node-news .field-name-field-picture {
   display: none;
@@ -2946,7 +2946,7 @@ body.page-node-anmeldung .pane-custom iframe {
   margin: 20px 0;
   width: 100%;
   height: 400px;
-  background: #fff url("ajax-loader.gif") no-repeat 50% 0;
+  background: #ffffff url("ajax-loader.gif") no-repeat 50% 0;
 }
 body.page-node-anmeldung .pane-custom iframe#if-anmeldung {
   min-height: 1600px;
@@ -2955,7 +2955,7 @@ body.page-node-anmeldung .pane-custom iframe#if-anmeldung {
   margin: 20px 0;
   width: 100%;
   height: 400px;
-  background: #fff url("ajax-loader.gif") no-repeat 50% 0;
+  background: #ffffff url("ajax-loader.gif") no-repeat 50% 0;
 }
 .node-remote-form iframe#if-anfrage {
   min-height: 1400px;
@@ -3311,25 +3311,25 @@ body.lccollege_section #block-system-main a.call2action {
   border: none;
 }
 body.kvcollege_section #block-webform-client-block-7525 h2.block-title {
-  background: #199CDA no-repeat 0 0;
+  background: #199cda no-repeat 0 0;
   padding-left: 20px;
 }
 body.kvcollege_section #block-webform-client-block-7525 #webform-client-form-7525 .form-actions .form-submit {
-  background-color: #199CDA;
+  background-color: #199cda;
 }
 body.hscollege_section #block-webform-client-block-7525 h2.block-title {
-  background: #7DB956 no-repeat 0 0;
+  background: #7db956 no-repeat 0 0;
   padding-left: 20px;
 }
 body.hscollege_section #block-webform-client-block-7525 #webform-client-form-7525 .form-actions .form-submit {
-  background-color: #7DB956;
+  background-color: #7db956;
 }
 body.kscollege_section #block-webform-client-block-7525 h2.block-title {
-  background: #003B79 no-repeat 0 0;
+  background: #003b79 no-repeat 0 0;
   padding-left: 20px;
 }
 body.kscollege_section #block-webform-client-block-7525 #webform-client-form-7525 .form-actions .form-submit {
-  background-color: #003B79;
+  background-color: #003b79;
 }
 body.excollege_section #block-webform-client-block-7525 h2.block-title {
   background: #b1a896 no-repeat 0 0;
@@ -3339,11 +3339,11 @@ body.excollege_section #block-webform-client-block-7525 #webform-client-form-752
   background-color: #b1a896;
 }
 body.langcollege_section #block-webform-client-block-7525 h2.block-title {
-  background: #E42618 no-repeat 0 0;
+  background: #e42618 no-repeat 0 0;
   padding-left: 20px;
 }
 body.langcollege_section #block-webform-client-block-7525 #webform-client-form-7525 .form-actions .form-submit {
-  background-color: #E42618;
+  background-color: #e42618;
 }
 /*
  *  Witercho sidebar block component (mini-home-blog)
@@ -3360,7 +3360,7 @@ body.langcollege_section #block-webform-client-block-7525 #webform-client-form-7
   color: #fff;
   line-height: 20px;
   border-bottom: 1px solid #fff;
-  background: #7DB956 url(../images/blog_icon.png) no-repeat 12px 18px;
+  background: #7db956 url(../images/blog_icon.png) no-repeat 12px 18px;
 }
 #block-panels-mini-segment-blog .pane-title,
 #block-panels-mini-home-blog .pane-title {
@@ -3389,7 +3389,7 @@ body.langcollege_section #block-webform-client-block-7525 #webform-client-form-7
 #block-panels-mini-home-blog .pane-title.active,
 #block-panels-mini-segment-blog .pane-title:hover,
 #block-panels-mini-home-blog .pane-title:hover {
-  background: #7DB956;
+  background: #7db956;
 }
 #block-panels-mini-segment-blog .pane-title.active .arrow,
 #block-panels-mini-home-blog .pane-title.active .arrow,
@@ -3407,7 +3407,7 @@ body.langcollege_section #block-webform-client-block-7525 #webform-client-form-7
   top: 27px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-top: 5px solid #7DB956;
+  border-top: 5px solid #7db956;
 }
 #block-panels-mini-segment-blog .pane-content .view.view-blog-blocks,
 #block-panels-mini-home-blog .pane-content .view.view-blog-blocks {
@@ -3448,7 +3448,7 @@ body.responsive-layout-mobile.front #block-panels-mini-home-blog {
   margin-right: 8px;
 }
 body.kvcollege_section #block-panels-mini-segment-blog h2.block-title {
-  background: #199CDA no-repeat 0 0;
+  background: #199cda no-repeat 0 0;
   padding-left: 20px;
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title {
@@ -3456,13 +3456,13 @@ body.kvcollege_section #block-panels-mini-segment-blog .pane-title {
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title.active,
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title:hover {
-  background: #199CDA;
+  background: #199cda;
 }
 body.kvcollege_section #block-panels-mini-segment-blog .pane-title .arrow {
-  border-top-color: #199CDA;
+  border-top-color: #199cda;
 }
 body.hscollege_section #block-panels-mini-segment-blog h2.block-title {
-  background: #7DB956 no-repeat 0 0;
+  background: #7db956 no-repeat 0 0;
   padding-left: 20px;
 }
 body.hscollege_section #block-panels-mini-segment-blog .pane-title {
@@ -3470,13 +3470,13 @@ body.hscollege_section #block-panels-mini-segment-blog .pane-title {
 }
 body.hscollege_section #block-panels-mini-segment-blog .pane-title.active,
 body.hscollege_section #block-panels-mini-segment-blog .pane-title:hover {
-  background: #7DB956;
+  background: #7db956;
 }
 body.hscollege_section #block-panels-mini-segment-blog .pane-title .arrow {
-  border-top-color: #7DB956;
+  border-top-color: #7db956;
 }
 body.kscollege_section #block-panels-mini-segment-blog h2.block-title {
-  background: #003B79 no-repeat 0 0;
+  background: #003b79 no-repeat 0 0;
   padding-left: 20px;
 }
 body.kscollege_section #block-panels-mini-segment-blog .pane-title {
@@ -3484,10 +3484,10 @@ body.kscollege_section #block-panels-mini-segment-blog .pane-title {
 }
 body.kscollege_section #block-panels-mini-segment-blog .pane-title.active,
 body.kscollege_section #block-panels-mini-segment-blog .pane-title:hover {
-  background: #003B79;
+  background: #003b79;
 }
 body.kscollege_section #block-panels-mini-segment-blog .pane-title .arrow {
-  border-top-color: #003B79;
+  border-top-color: #003b79;
 }
 body.excollege_section #block-panels-mini-segment-blog h2.block-title {
   background: #b1a896 no-repeat 0 0;
@@ -3504,7 +3504,7 @@ body.excollege_section #block-panels-mini-segment-blog .pane-title .arrow {
   border-top-color: #b1a896;
 }
 body.langcollege_section #block-panels-mini-segment-blog h2.block-title {
-  background: #E42618 no-repeat 0 0;
+  background: #e42618 no-repeat 0 0;
   padding-left: 20px;
 }
 body.langcollege_section #block-panels-mini-segment-blog .pane-title {
@@ -3512,10 +3512,10 @@ body.langcollege_section #block-panels-mini-segment-blog .pane-title {
 }
 body.langcollege_section #block-panels-mini-segment-blog .pane-title.active,
 body.langcollege_section #block-panels-mini-segment-blog .pane-title:hover {
-  background: #E42618;
+  background: #e42618;
 }
 body.langcollege_section #block-panels-mini-segment-blog .pane-title .arrow {
-  border-top-color: #E42618;
+  border-top-color: #e42618;
 }
 /*
  *  Tweets-block component
@@ -3656,19 +3656,19 @@ body.responsive-layout-mobile.front #block-block-2 {
   color: #6e6e6e;
 }
 body.kvcollege_section #block-views-fachwissen-block h2.block-title {
-  background: #199CDA no-repeat 0 0;
+  background: #199cda no-repeat 0 0;
 }
 body.hscollege_section #block-views-fachwissen-block h2.block-title {
-  background: #7DB956 no-repeat 0 0;
+  background: #7db956 no-repeat 0 0;
 }
 body.kscollege_section #block-views-fachwissen-block h2.block-title {
-  background: #003B79 no-repeat 0 0;
+  background: #003b79 no-repeat 0 0;
 }
 body.excollege_section #block-views-fachwissen-block h2.block-title {
   background: #b1a896 no-repeat 0 0;
 }
 body.langcollege_section #block-views-fachwissen-block h2.block-title {
-  background: #E42618 no-repeat 0 0;
+  background: #e42618 no-repeat 0 0;
 }
 /*
  *  About-author block Component
@@ -3730,19 +3730,19 @@ body.langcollege_section #block-views-fachwissen-block h2.block-title {
   font-size: 14px;
 }
 body.kvcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #199CDA;
+  background-color: #199cda;
 }
 body.hscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #7DB956;
+  background-color: #7db956;
 }
 body.kscollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #003B79;
+  background-color: #003b79;
 }
 body.excollege_section #block-views-ber-den-autor-block h2.block-title {
   background-color: #b1a896;
 }
 body.langcollege_section #block-views-ber-den-autor-block h2.block-title {
-  background-color: #E42618;
+  background-color: #e42618;
 }
 /*
  *  Contacts-block component
@@ -3850,7 +3850,7 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts,
 body.kvcollege_section .block-views-contacts-block-course-contacts {
-  background: #199CDA;
+  background: #199cda;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
@@ -3863,7 +3863,7 @@ body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts,
 body.hscollege_section .block-views-contacts-block-course-contacts {
-  background: #7DB956;
+  background: #7db956;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
@@ -3876,11 +3876,11 @@ body.hscollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts,
 body.kscollege_section .block-views-contacts-block-course-contacts {
-  background: #003B79;
+  background: #003b79;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #1E61A3;
+  color: #1e61a3;
   background: #00346a;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
@@ -3893,7 +3893,7 @@ body.excollege_section .block-views-contacts-block-course-contacts {
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
-  color: #1E61A3;
+  color: #1e61a3;
   background: #aaa18d;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
@@ -3902,7 +3902,7 @@ body.excollege_section .block-views-contacts-block-course-contacts .content ul.h
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts,
 body.langcollege_section .block-views-contacts-block-course-contacts {
-  background: #E42618;
+  background: #e42618;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
 body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
@@ -3928,7 +3928,7 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
   height: 245px;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 10px;
-  color: #7DB956;
+  color: #7db956;
   line-height: normal;
 }
 #tag_cloud_wrapper #tag-cloud span {
@@ -3966,7 +3966,7 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
 }
 #tag_cloud_wrapper #tag-cloud span a {
   font-size: inherit;
-  color: #7DB956;
+  color: #7db956;
   text-decoration: none;
 }
 /*
@@ -3977,7 +3977,7 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
 .word-cloud-block .field-name-body a,
 .word-cloud-block .field-name-body a:visited,
 .word-cloud-block .field-name-body a:active {
-  color: #E40421;
+  color: #e40421;
   text-decoration: none;
 }
 .word-cloud-block .field-name-body span:hover,
@@ -4295,5 +4295,5 @@ body.langcollege_section .block-views-contacts-block-course-contacts .content ul
 }
 #region-footer-second #block-menu-block-2 ul li a.active,
 #region-footer-second #block-menu-block-2 ul li a:hover {
-  color: #7DB956;
+  color: #7db956;
 }
