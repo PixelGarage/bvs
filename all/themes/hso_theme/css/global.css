@@ -536,7 +536,7 @@ body.langcollege_section #zone-menu-wrapper {
   position: relative;
   float: left;
   /* small column width */
-  width: 124px;
+  width: 130px;
 }
 #block-menu-block-1 ul li.nolink-main {
   /* main no-links on all levels */
@@ -570,7 +570,7 @@ body.langcollege_section #zone-menu-wrapper {
   line-height: 40px;
   height: 40px;
   padding: 0 40px 0 20px;
-  background: url(../images/menu_arrow.png) no-repeat 100px 19px;
+  background: url(../images/menu_arrow.png) no-repeat 105px 19px;
 }
 #block-menu-block-1 ul li ul.menu {
   /* Menu block dropdown (invisible and animated when hovered) */
@@ -580,7 +580,7 @@ body.langcollege_section #zone-menu-wrapper {
   top: 40px;
   padding: 20px 0;
   /* 2 normal columns wide */
-  width: 376px;
+  width: 470px;
   z-index: 30;
 }
 #block-menu-block-1 ul li ul.menu li a {
@@ -609,7 +609,7 @@ body.langcollege_section #zone-menu-wrapper {
   display: block;
   position: static;
   /* normal column width with border*/
-  width: 188px;
+  width: 235px;
   padding: 0;
 }
 #block-menu-block-1 ul li.menu-mlid-986 {
@@ -635,14 +635,14 @@ body.langcollege_section #zone-menu-wrapper {
   /* Submenu position under top menu */
   left: 0px;
   background: #199CDA;
-  width: 376px;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
+  width: 234px;
   border-right: 1px solid #199CDA;
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li a:hover,
@@ -657,7 +657,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-986 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 {
   /* Handelsschule top-menu background */
@@ -680,16 +680,16 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
   /* Submenu position under top menu */
-  left: 0px;
+  left: -130px;
   background: #7DB956;
-  width: 376px;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
+  width: 234px;
   border-right: 1px solid #7DB956;
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li a:hover,
@@ -704,7 +704,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-987 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-988 {
   /* Kaderschule top-menu background */
@@ -774,16 +774,16 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
   /* Submenu position under top menu */
-  left: -252px;
+  left: -340px;
   background: #b1a896;
-  width: 376px;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
+  width: 234px;
   border-right: 1px solid #b1a896;
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li a:hover,
@@ -798,7 +798,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-989 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 {
   /* Sprachen top-menu background */
@@ -821,16 +821,16 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
   /* Submenu position under top menu */
-  left: -252px;
+  left: -340px;
   background: #E42618;
-  width: 376px;
+  width: 470px;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content,
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.double .view-content-right {
   /* only used in @normal size */
   float: left;
-  width: 187px;
+  width: 234px;
   border-right: 1px solid #E42618;
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li a:hover,
@@ -845,7 +845,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-menu-block-1 ul li.menu-mlid-3216 ul.menu li.last {
   /* IE specific: subtract scrollbar width */
-  width: 170px;
+  width: 217px;
 }
 #block-menu-block-1 ul li.menu-mlid-3124 {
   /* placeholder to center 2nd menu row */
@@ -886,28 +886,28 @@ body.langcollege_section #zone-menu-wrapper {
 }
 @media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
   #block-menu-block-1 ul li {
-    width: 140px;
+    width: 173px;
     /* medium size top menu, all others have size @column-width */
   }
   /* place dropdown arrow for medium sized top menus */
   #block-menu-block-1 ul li a {
-    background-position: 115px 19px;
+    background-position: 140px 19px;
     font-size: 14px;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
-    left: 0px;
+    left: -297px;
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0px;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -236px;
+    left: -297px;
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
-    left: -236px;
+    left: -297px;
     /* left-shift last two menus, so that menu ends with last top menu  */
   }
 }
@@ -916,46 +916,46 @@ body.langcollege_section #zone-menu-wrapper {
    *  Block Menu styling
    */
   #block-menu-block-1 ul li {
-    width: 188px;
+    width: 235px;
     /* width of 1 column */
   }
   /* Arrow of top menus */
   #block-menu-block-1 ul li a {
     font-size: 16px;
-    background-position: 160px 19px;
+    background-position: 195px 19px;
   }
   /* define normal sized menus width and position */
   #block-menu-block-1 li.double {
-    width: 376px !important;
+    width: 470px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu {
     left: 0;
     /* left-shift first menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-986 ul.menu.double {
     left: 0;
     /* left-shift first double menu, so that menu starts with first top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu {
-    left: 0;
+    left: -470px;
     /* left-shift second menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-987 ul.menu.double {
-    left: 0;
+    left: -470px;
     /* left-shift second double menu, so that menu starts with second top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu {
     left: 0;
     /* left-shift third menu, so that menu starts with second top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-988 ul.menu.double {
@@ -968,27 +968,27 @@ body.langcollege_section #zone-menu-wrapper {
     width: 466px !important;
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu {
-    left: -188px;
+    left: -235px;
     /* left-shift forth menu, so that menu ends with last top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-989 ul.menu.double {
-    left: -376px;
+    left: -470px;
     /* left-shift forth double menu, so that menu ends with last top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu {
-    left: -376px;
+    left: -470px;
     /* left-shift last menu, so that menu ends with last top menu  */
-    width: 564px;
+    width: 705px;
     /* 3 columns */
   }
   #block-menu-block-1 ul li.menu-mlid-3216 ul.menu.double {
-    left: -564px;
+    left: -705px;
     /* left-shift last double menu, so that menu ends with last top menu  */
-    width: 752px !important;
+    width: 940px !important;
     /* 4 columns */
   }
   /* display first menu column (output from view) in normal sized menus */
