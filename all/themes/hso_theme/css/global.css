@@ -3440,6 +3440,8 @@ body.langcollege_section #block-webform-client-block-7525 #webform-client-form-7
 }
 #block-panels-mini-segment-blog .pane-content .view.view-blog-blocks .view-content .views-row .views-field-body img,
 #block-panels-mini-home-blog .pane-content .view.view-blog-blocks .view-content .views-row .views-field-body img {
+  width: 100% !important;
+  height: auto !important;
   max-width: 100%;
 }
 body.responsive-layout-mobile.front #block-panels-mini-home-blog {
@@ -3748,42 +3750,42 @@ body.langcollege_section #block-views-ber-den-autor-block h2.block-title {
  *  Contacts-block component
  * --------------------------------------------------*/
 #block-views-contacts-block-segment-contacts,
-.block-views-contacts-block-course-contacts {
+#block-views-contacts-block-course-contacts {
   margin-bottom: 20px;
   padding: 15px 20px;
   font-size: 12px;
   color: #fff;
 }
 body.page-node-1289 #block-views-contacts-block-segment-contacts,
-body.page-node-1289 .block-views-contacts-block-course-contacts,
+body.page-node-1289 #block-views-contacts-block-course-contacts,
 body.page-node-1428 #block-views-contacts-block-segment-contacts,
-body.page-node-1428 .block-views-contacts-block-course-contacts {
+body.page-node-1428 #block-views-contacts-block-course-contacts {
   /* Specific page settings */
   display: none;
 }
 #block-views-contacts-block-segment-contacts h2.block-title,
-.block-views-contacts-block-course-contacts h2.block-title {
+#block-views-contacts-block-course-contacts h2.block-title {
   font-family: 'Soho Gothic W01 Light', sans-serif;
   font-size: 28px;
   color: #fff;
   margin-bottom: 20px;
 }
 #block-views-contacts-block-segment-contacts .content ul.header_links,
-.block-views-contacts-block-course-contacts .content ul.header_links {
+#block-views-contacts-block-course-contacts .content ul.header_links {
   list-style: none;
   margin: 0;
   padding: 0;
   margin: 0 0 20px;
 }
 #block-views-contacts-block-segment-contacts .content ul.header_links li,
-.block-views-contacts-block-course-contacts .content ul.header_links li {
+#block-views-contacts-block-course-contacts .content ul.header_links li {
   display: inline;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-.block-views-contacts-block-course-contacts .content ul.header_links li a {
+#block-views-contacts-block-course-contacts .content ul.header_links li a {
   display: inline-block;
   margin: 0 4px 4px 0;
   padding: 2px 15px;
@@ -3794,30 +3796,30 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
   text-decoration: none;
 }
 #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-.block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+#block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   font-family: 'Soho Gothic W01 Medium', sans-serif;
   color: #fff;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row {
   overflow: hidden;
   margin-bottom: 10px;
   padding-left: 105px;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-title,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-title {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-title {
   font-family: 'Soho Gothic W01 Regular', Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-field-picture,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-picture {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-picture {
   margin-left: -105px;
   float: left;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-field-phone,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-phone,
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-phone,
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row a,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row a {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row a {
   display: block;
   margin-top: 5px;
   padding-left: 25px;
@@ -3826,9 +3828,9 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
   text-decoration: none;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-field-phone:before,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-phone:before,
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-phone:before,
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row a:before,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row a:before {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row a:before {
   content: ' ';
   display: block;
   float: left;
@@ -3838,79 +3840,79 @@ body.page-node-1428 .block-views-contacts-block-course-contacts {
   background: url(../images/contact_icons.png) no-repeat 0 0;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-field-email a,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-email a {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-email a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 110px;
 }
 #block-views-contacts-block-segment-contacts .content .view-content li.views-row .views-field-field-email a:before,
-.block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-email a:before {
+#block-views-contacts-block-course-contacts .content .view-content li.views-row .views-field-field-email a:before {
   background-position: 0 -16px;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts,
-body.kvcollege_section .block-views-contacts-block-course-contacts {
+body.kvcollege_section #block-views-contacts-block-course-contacts {
   background: #199CDA;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+body.kvcollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
   background: #178fc8;
 }
 body.kvcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.kvcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.kvcollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts,
-body.hscollege_section .block-views-contacts-block-course-contacts {
+body.hscollege_section #block-views-contacts-block-course-contacts {
   background: #7DB956;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+body.hscollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
   background: #75b54b;
 }
 body.hscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.hscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.hscollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts,
-body.kscollege_section .block-views-contacts-block-course-contacts {
+body.kscollege_section #block-views-contacts-block-course-contacts {
   background: #003B79;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+body.kscollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #1E61A3;
   background: #00346a;
 }
 body.kscollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.kscollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.kscollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts,
-body.excollege_section .block-views-contacts-block-course-contacts {
+body.excollege_section #block-views-contacts-block-course-contacts {
   background: #b1a896;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+body.excollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #1E61A3;
   background: #aaa18d;
 }
 body.excollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.excollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.excollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts,
-body.langcollege_section .block-views-contacts-block-course-contacts {
+body.langcollege_section #block-views-contacts-block-course-contacts {
   background: #E42618;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a,
-body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a {
+body.langcollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a {
   color: #631615;
   background: #d62417;
 }
 body.langcollege_section #block-views-contacts-block-segment-contacts .content ul.header_links li a.active,
-body.langcollege_section .block-views-contacts-block-course-contacts .content ul.header_links li a.active {
+body.langcollege_section #block-views-contacts-block-course-contacts .content ul.header_links li a.active {
   color: #fff;
 }
 /*
