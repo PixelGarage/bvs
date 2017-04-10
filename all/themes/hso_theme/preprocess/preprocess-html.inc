@@ -33,8 +33,7 @@ FS_JS;
   $js_js = <<<JS_JS
 <script type="text/javascript">
 /* <![CDATA[ */
-var google_conversion_id = 1045515944;
-var google_conversion_label = "rEjgCMi2tAIQqJ3F8gM";
+var google_conversion_id = 972719663;
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
@@ -43,7 +42,7 @@ var google_remarketing_only = true;
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1045515944/?value=0&amp;label=rEjgCMi2tAIQqJ3F8gM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/972719663/?guid=ON&amp;script=0"/>
 </div>
 </noscript>
 JS_JS;
