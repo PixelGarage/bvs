@@ -1038,7 +1038,7 @@ body.langcollege_section #zone-menu-wrapper {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #block-views-banners-block-1 .banner .views-field-field-banner-links ul li a,
 #block-views-banners-block .banner .views-field-field-banner-links ul li a {
@@ -1064,7 +1064,7 @@ body.langcollege_section #zone-menu-wrapper {
 }
 #block-views-banners-block-1 .banner_pagination li,
 #block-views-banners-block .banner_pagination li {
-  display: inline;
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
